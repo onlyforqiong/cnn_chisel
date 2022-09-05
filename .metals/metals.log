@@ -1,0 +1,61 @@
+2022.09.05 09:12:45 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/.metals/lsp.trace.json or /home/wzy/.cache/metals/lsp.trace.json
+2022.09.05 09:12:46 INFO  logging to file /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/.metals/metals.log
+2022.09.05 09:12:46 INFO  Started: Metals version 0.11.8 in workspace '/media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel' for client Visual Studio Code 1.70.2.
+2022.09.05 09:12:46 WARN  Can't instantiate JavaInteractiveSemanticdb (version: JdkVersion(11), jdkHome: /usr/lib/jvm/java-11-openjdk-amd64, javac exists: false)
+2022.09.05 09:12:46 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.09.05 09:12:46 INFO  time: initialize in 0.42s
+2022.09.05 09:12:47 WARN  Build server is not auto-connectable.
+2022.09.05 09:12:47 WARN  no build target for: /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/src/main/scala/cnn/cnn_top.scala
+2022.09.05 09:13:25 INFO  no build target found for /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/src/main/scala/cnn/cnn_top.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.09.05 09:13:40 WARN  no build target for: /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/src/main/scala/cnn/cnn_top.scala
+2022.09.05 09:13:44 WARN  no build target for: /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/src/main/scala/cnn/cnn_top.scala
+2022.09.05 09:13:53 WARN  no build target for: /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/src/main/scala/cnn/cnn_top.scala
+2022.09.05 09:14:01 WARN  no build target for: /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/src/main/scala/cnn/cnn_top.scala
+Sep 05, 2022 9:14:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 368 out of bounds for length 368
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 368 out of bounds for length 368
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 368 out of bounds for length 368
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.isScala3BlockWithoutOptionalBraces(FoldingRangeExtractor.scala:248)
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.unapply(FoldingRangeExtractor.scala:199)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:36)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extract(FoldingRangeExtractor.scala:29)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:40)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1705)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.09.05 09:14:06 WARN  no build target for: /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/src/main/scala/cnn/cnn_top.scala
+2022.09.05 09:16:08 WARN  no build target for: /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/src/main/scala/cnn/cnn_top.scala
+2022.09.05 09:16:09 WARN  no build target for: /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/src/main/scala/cnn/cnn_top.scala
+2022.09.05 09:16:13 WARN  no build target for: /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/src/main/scala/cnn/cnn_top.scala
+2022.09.05 09:16:14 WARN  no build target for: /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/src/main/scala/cnn/cnn_top.scala
+2022.09.05 09:16:20 WARN  no build target for: /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/src/main/scala/cnn/cnn_top.scala
+2022.09.05 09:16:21 WARN  no build target for: /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/src/main/scala/cnn/cnn_top.scala
+2022.09.05 09:16:24 WARN  no build target for: /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/src/main/scala/cnn/cnn_top.scala

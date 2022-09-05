@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/target/scala-2.13/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	cnn_top$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	cnn_top.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	cnn_top$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	cnn_top.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	cnn_top_test$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	cnn_top_test$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	cnn_top$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	cnn_top.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	cnn_top_test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/target/scala-2.13/classes.bak[0m

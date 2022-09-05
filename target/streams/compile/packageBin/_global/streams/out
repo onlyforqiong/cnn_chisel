@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/target/scala-2.13/-name-_2.13-0.1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	cnn[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/target/scala-2.13/classes/cnn[0m
+[0m[[0m[0mdebug[0m] [0m[0m	cnn/cnn_top_test$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/target/scala-2.13/classes/cnn/cnn_top_test$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	cnn/cnn_top.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/target/scala-2.13/classes/cnn/cnn_top.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	cnn/cnn_top_test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/target/scala-2.13/classes/cnn/cnn_top_test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	cnn/cnn_top$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/target/scala-2.13/classes/cnn/cnn_top$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	cnn/cnn_top_test$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /media/wzy/5fe7855f-9624-4a13-ab30-6c3aeb020a72/longxin/learning/Neural_Networks/cnn_chisel/target/scala-2.13/classes/cnn/cnn_top_test$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
