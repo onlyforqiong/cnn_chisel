@@ -17,8 +17,10 @@ class cnn_top extends Module  {
         val overflow = Output(UInt(1.W))
 
     })
+    
 }
 
 object cnn_top_test extends App{
     (new ChiselStage).emitVerilog(new cnn_top)
 }
+
