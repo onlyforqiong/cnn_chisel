@@ -16,7 +16,7 @@ class cnn_top extends Module  with basic_macro {
     
 }
 
-object cnn_top_test extends App{
-    (new ChiselStage).emitVerilog(new cnn_top)
-}
+// object cnn_top_test extends App{
+//     (new ChiselStage).emitVerilog(new cnn_top)
+// }
 

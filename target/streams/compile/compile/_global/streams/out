@@ -1,0 +1,25 @@
+[0m[[0m[31merror[0m] [0m[0m/home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/cnn_top.scala:11:29: inferred type arguments [cnn_top.this.matrix_bundle] do not conform to method apply's type parameter bounds [T <: chisel3.Data][0m
+[0m[[0m[31merror[0m] [0m[0m        val matrix_input  = Input(new matrix_bundle(3,3))[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/cnn_top.scala:11:35: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : cnn_top.this.matrix_bundle[0m
+[0m[[0m[31merror[0m] [0m[0m required: T[0m
+[0m[[0m[31merror[0m] [0m[0m        val matrix_input  = Input(new matrix_bundle(3,3))[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/cnn_top.scala:12:29: inferred type arguments [cnn_top.this.matrix_bundle] do not conform to method apply's type parameter bounds [T <: chisel3.Data][0m
+[0m[[0m[31merror[0m] [0m[0m        val matrix_const  = Input(new matrix_bundle(3,3))[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/cnn_top.scala:12:35: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : cnn_top.this.matrix_bundle[0m
+[0m[[0m[31merror[0m] [0m[0m required: T[0m
+[0m[[0m[31merror[0m] [0m[0m        val matrix_const  = Input(new matrix_bundle(3,3))[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:15:26: inferred type arguments [sliding_window.this.matrix_bundle] do not conform to method apply's type parameter bounds [T <: chisel3.Data][0m
+[0m[[0m[31merror[0m] [0m[0m        val const_in   = Input(new matrix_bundle(cnn_kernel_width,cnn_kernel_width))[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:15:32: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : sliding_window.this.matrix_bundle[0m
+[0m[[0m[31merror[0m] [0m[0m required: T[0m
+[0m[[0m[31merror[0m] [0m[0m        val const_in   = Input(new matrix_bundle(cnn_kernel_width,cnn_kernel_width))[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m

@@ -4923,3 +4923,2103 @@ scala.reflect.internal.Types$TypeError: illegal cyclic reference involving class
 2022.09.10 12:39:21 INFO  time: compiled root in 0.98s
 2022.09.10 13:27:54 INFO  compiling root (1 scala source)
 2022.09.10 13:27:54 INFO  time: compiled root in 0.9s
+2022.09.10 13:35:06 INFO  compiling root (1 scala source)
+2022.09.10 13:35:06 INFO  time: compiled root in 64ms
+2022.09.10 13:35:07 INFO  compiling root (1 scala source)
+2022.09.10 13:35:09 INFO  time: compiled root in 1.14s
+2022.09.10 13:35:09 INFO  compiling root (1 scala source)
+2022.09.10 13:35:10 INFO  time: compiled root in 0.83s
+2022.09.10 13:35:15 ERROR searching for `cnn/cnn_top#` failedjava.nio.file.NoSuchFileException: /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/cnn_top copy.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:529)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:198)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:163)
+	at scala.collection.immutable.Set$Set3.foreach(Set.scala:252)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:140)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:133)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:133)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:44)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:104)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:42)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:222)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:277)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:237)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:69)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:22)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:206)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.09.10 13:35:27 INFO  compiling root (1 scala source)
+2022.09.10 13:35:27 INFO  time: compiled root in 65ms
+2022.09.10 13:35:28 INFO  compiling root (1 scala source)
+2022.09.10 13:35:28 INFO  time: compiled root in 0.78s
+2022.09.10 13:35:31 INFO  compiling root (1 scala source)
+2022.09.10 13:35:31 INFO  time: compiled root in 0.86s
+2022.09.10 14:48:57 INFO  compiling root (1 scala source)
+2022.09.10 14:48:57 INFO  time: compiled root in 0.37s
+2022.09.10 14:48:58 INFO  compiling root (1 scala source)
+2022.09.10 14:48:58 INFO  time: compiled root in 0.33s
+2022.09.10 14:49:07 INFO  compiling root-test (6 scala sources)
+2022.09.10 14:49:07 INFO  time: compiled root-test in 0.19s
+2022.09.10 14:49:11 INFO  compiling root (1 scala source)
+2022.09.10 14:49:11 INFO  time: compiled root in 0.35s
+2022.09.10 14:49:12 INFO  compiling root (1 scala source)
+2022.09.10 14:49:12 INFO  time: compiled root in 0.37s
+2022.09.10 14:49:15 INFO  compiling root (1 scala source)
+2022.09.10 14:49:15 INFO  time: compiled root in 56ms
+2022.09.10 14:49:18 INFO  compiling root (1 scala source)
+2022.09.10 14:49:18 INFO  time: compiled root in 0.55s
+2022.09.10 14:49:20 INFO  compiling root (1 scala source)
+2022.09.10 14:49:20 INFO  time: compiled root in 0.52s
+2022.09.10 14:49:23 INFO  compiling root (1 scala source)
+2022.09.10 14:49:23 INFO  time: compiled root in 0.15s
+2022.09.10 14:49:27 INFO  compiling root (1 scala source)
+2022.09.10 14:49:27 INFO  time: compiled root in 69ms
+2022.09.10 14:49:29 INFO  compiling root (1 scala source)
+2022.09.10 14:49:29 INFO  time: compiled root in 0.58s
+2022.09.10 14:49:33 INFO  compiling root (1 scala source)
+2022.09.10 14:49:33 INFO  time: compiled root in 0.57s
+9月 10, 2022 3:16:40 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 15993
+2022.09.10 15:17:24 INFO  compiling root (1 scala source)
+2022.09.10 15:17:24 INFO  time: compiled root in 73ms
+2022.09.10 15:17:28 INFO  compiling root (1 scala source)
+2022.09.10 15:17:28 INFO  time: compiled root in 76ms
+2022.09.10 15:17:34 INFO  compiling root (1 scala source)
+2022.09.10 15:17:34 INFO  time: compiled root in 61ms
+2022.09.10 15:17:41 INFO  compiling root (1 scala source)
+2022.09.10 15:17:41 INFO  time: compiled root in 57ms
+2022.09.10 15:17:46 INFO  compiling root (1 scala source)
+2022.09.10 15:17:46 INFO  time: compiled root in 0.75s
+2022.09.10 15:17:48 INFO  compiling root (1 scala source)
+2022.09.10 15:17:48 INFO  time: compiled root in 0.73s
+2022.09.10 15:18:22 INFO  compiling root (1 scala source)
+2022.09.10 15:18:22 INFO  time: compiled root in 0.73s
+9月 10, 2022 3:18:29 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 16185
+2022.09.10 15:18:41 INFO  compiling root (1 scala source)
+2022.09.10 15:18:41 INFO  time: compiled root in 0.11s
+2022.09.10 15:19:08 INFO  compiling root (1 scala source)
+2022.09.10 15:19:08 INFO  time: compiled root in 64ms
+2022.09.10 15:19:42 INFO  compiling root (1 scala source)
+2022.09.10 15:19:42 INFO  time: compiled root in 57ms
+2022.09.10 15:19:49 INFO  compiling root (1 scala source)
+2022.09.10 15:19:49 INFO  time: compiled root in 81ms
+2022.09.10 15:21:06 INFO  compiling root (1 scala source)
+2022.09.10 15:21:06 INFO  time: compiled root in 71ms
+9月 10, 2022 3:21:09 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 16364
+2022.09.10 15:21:14 INFO  compiling root (1 scala source)
+2022.09.10 15:21:14 INFO  time: compiled root in 58ms
+2022.09.10 15:21:15 INFO  compiling root (1 scala source)
+2022.09.10 15:21:15 INFO  time: compiled root in 67ms
+2022.09.10 15:21:19 INFO  compiling root (1 scala source)
+2022.09.10 15:21:19 INFO  time: compiled root in 0.1s
+2022.09.10 15:21:39 INFO  compiling root (1 scala source)
+2022.09.10 15:21:39 INFO  time: compiled root in 0.1s
+2022.09.10 15:22:13 INFO  compiling root (1 scala source)
+2022.09.10 15:22:13 INFO  time: compiled root in 0.12s
+2022.09.10 15:22:16 INFO  compiling root (1 scala source)
+2022.09.10 15:22:16 INFO  time: compiled root in 0.11s
+2022.09.10 15:22:20 INFO  compiling root (1 scala source)
+2022.09.10 15:22:20 INFO  time: compiled root in 0.1s
+2022.09.10 15:22:24 INFO  compiling root (1 scala source)
+2022.09.10 15:22:24 INFO  time: compiled root in 0.13s
+2022.09.10 15:22:25 INFO  compiling root (1 scala source)
+2022.09.10 15:22:25 INFO  time: compiled root in 0.11s
+2022.09.10 15:22:27 INFO  compiling root (1 scala source)
+2022.09.10 15:22:27 INFO  time: compiled root in 0.11s
+2022.09.10 15:22:29 INFO  compiling root (1 scala source)
+2022.09.10 15:22:29 INFO  time: compiled root in 0.11s
+2022.09.10 15:22:30 INFO  compiling root (1 scala source)
+2022.09.10 15:22:30 INFO  time: compiled root in 57ms
+2022.09.10 15:22:33 INFO  compiling root (1 scala source)
+2022.09.10 15:22:33 INFO  time: compiled root in 0.7s
+2022.09.10 15:22:45 INFO  compiling root-test (6 scala sources)
+2022.09.10 15:22:45 INFO  time: compiled root-test in 0.19s
+2022.09.10 15:22:45 INFO  compiling root-test (6 scala sources)
+Exception in thread "pool-4-thread-9" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.09.10 15:22:45 INFO  time: compiled root-test in 0.16s
+2022.09.10 15:22:45 INFO  compiling root-test (6 scala sources)
+2022.09.10 15:22:45 INFO  time: compiled root-test in 0.18s
+2022.09.10 15:22:50 INFO  compiling root (1 scala source)
+2022.09.10 15:22:50 INFO  time: compiled root in 0.73s
+2022.09.10 15:22:53 INFO  compiling root (1 scala source)
+2022.09.10 15:22:53 INFO  time: compiled root in 0.85s
+2022.09.10 15:23:32 INFO  compiling root (1 scala source)
+2022.09.10 15:23:32 INFO  time: compiled root in 69ms
+2022.09.10 15:23:37 INFO  compiling root (1 scala source)
+2022.09.10 15:23:37 INFO  time: compiled root in 0.13s
+2022.09.10 15:24:39 INFO  compiling root (1 scala source)
+2022.09.10 15:24:39 INFO  time: compiled root in 0.11s
+2022.09.10 15:24:49 INFO  compiling root (1 scala source)
+2022.09.10 15:24:49 INFO  time: compiled root in 0.83s
+2022.09.10 15:24:52 INFO  compiling root (1 scala source)
+2022.09.10 15:24:52 INFO  time: compiled root in 0.97s
+2022.09.10 15:24:57 INFO  compiling root (1 scala source)
+2022.09.10 15:24:57 INFO  time: compiled root in 59ms
+2022.09.10 15:24:58 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:24:59 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:24:59 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:25:00 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:25:00 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:25:01 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:25:02 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:25:02 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:25:02 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:25:04 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:25:05 INFO  compiling root (1 scala source)
+2022.09.10 15:25:05 INFO  time: compiled root in 63ms
+2022.09.10 15:25:05 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:25:05 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:25:06 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:25:06 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:25:08 INFO  compiling root (1 scala source)
+2022.09.10 15:25:08 INFO  time: compiled root in 55ms
+2022.09.10 15:25:08 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:25:09 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:25:10 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:25:10 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:25:11 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:25:12 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:25:12 INFO  compiling root (1 scala source)
+2022.09.10 15:25:12 INFO  time: compiled root in 0.72s
+2022.09.10 15:25:28 INFO  compiling root (1 scala source)
+2022.09.10 15:25:28 INFO  time: compiled root in 0.83s
+2022.09.10 15:25:37 INFO  compiling root (1 scala source)
+2022.09.10 15:25:37 INFO  time: compiled root in 0.17s
+2022.09.10 15:25:46 INFO  compiling root (1 scala source)
+2022.09.10 15:25:46 INFO  time: compiled root in 0.72s
+2022.09.10 15:27:09 INFO  compiling root-test (6 scala sources)
+2022.09.10 15:27:09 INFO  time: compiled root-test in 0.18s
+2022.09.10 15:27:10 INFO  compiling root-test (6 scala sources)
+2022.09.10 15:27:10 INFO  time: compiled root-test in 0.16s
+2022.09.10 15:27:10 INFO  compiling root-test (6 scala sources)
+2022.09.10 15:27:10 INFO  time: compiled root-test in 0.16s
+2022.09.10 15:27:12 INFO  compiling root (1 scala source)
+2022.09.10 15:27:12 INFO  time: compiled root in 0.74s
+2022.09.10 15:27:19 INFO  compiling root (1 scala source)
+2022.09.10 15:27:19 INFO  time: compiled root in 0.72s
+2022.09.10 15:27:20 INFO  compiling root (1 scala source)
+2022.09.10 15:27:20 INFO  time: compiled root in 0.75s
+2022.09.10 15:27:22 INFO  compiling root (1 scala source)
+2022.09.10 15:27:22 INFO  time: compiled root in 0.71s
+2022.09.10 15:27:31 INFO  compiling root (1 scala source)
+2022.09.10 15:27:31 INFO  time: compiled root in 64ms
+2022.09.10 15:27:37 INFO  compiling root (1 scala source)
+2022.09.10 15:27:37 INFO  time: compiled root in 62ms
+2022.09.10 15:27:40 INFO  compiling root (1 scala source)
+2022.09.10 15:27:40 INFO  time: compiled root in 65ms
+2022.09.10 15:27:43 INFO  compiling root (1 scala source)
+2022.09.10 15:27:43 INFO  time: compiled root in 58ms
+2022.09.10 15:27:47 INFO  compiling root (1 scala source)
+2022.09.10 15:27:48 INFO  time: compiled root in 1.15s
+2022.09.10 15:27:48 INFO  compiling root (1 scala source)
+2022.09.10 15:27:48 INFO  time: compiled root in 53ms
+2022.09.10 15:27:49 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:27:51 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:27:52 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:27:52 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:27:53 INFO  compiling root (1 scala source)
+2022.09.10 15:27:54 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 15:27:53 INFO  time: compiled root in 0.73s
+2022.09.10 15:27:56 INFO  compiling root (1 scala source)
+2022.09.10 15:27:56 INFO  time: compiled root in 57ms
+2022.09.10 15:27:58 INFO  compiling root (1 scala source)
+2022.09.10 15:27:58 INFO  time: compiled root in 0.75s
+2022.09.10 15:29:02 INFO  compiling root (1 scala source)
+2022.09.10 15:29:02 INFO  time: compiled root in 0.74s
+2022.09.10 15:29:28 INFO  compiling root (1 scala source)
+2022.09.10 15:29:28 INFO  time: compiled root in 0.12s
+2022.09.10 15:36:27 INFO  compiling root (1 scala source)
+2022.09.10 15:36:27 INFO  time: compiled root in 72ms
+2022.09.10 15:36:30 INFO  compiling root (1 scala source)
+2022.09.10 15:36:30 INFO  time: compiled root in 82ms
+2022.09.10 15:36:36 INFO  compiling root (1 scala source)
+2022.09.10 15:36:36 INFO  time: compiled root in 65ms
+2022.09.10 15:37:51 INFO  compiling root (1 scala source)
+2022.09.10 15:37:51 INFO  time: compiled root in 65ms
+2022.09.10 15:53:59 INFO  compiling root (1 scala source)
+2022.09.10 15:53:59 INFO  time: compiled root in 60ms
+2022.09.10 15:56:19 INFO  compiling root (1 scala source)
+2022.09.10 15:56:19 INFO  time: compiled root in 83ms
+2022.09.10 15:56:26 INFO  compiling root (1 scala source)
+2022.09.10 15:56:26 INFO  time: compiled root in 58ms
+2022.09.10 15:56:30 INFO  compiling root (1 scala source)
+2022.09.10 15:56:30 INFO  time: compiled root in 65ms
+2022.09.10 15:56:35 INFO  compiling root (1 scala source)
+2022.09.10 15:56:35 INFO  time: compiled root in 63ms
+2022.09.10 15:56:51 INFO  compiling root (1 scala source)
+2022.09.10 15:56:51 INFO  time: compiled root in 61ms
+2022.09.10 15:56:51 INFO  compiling root (1 scala source)
+2022.09.10 15:56:51 INFO  time: compiled root in 74ms
+2022.09.10 15:56:52 INFO  compiling root (1 scala source)
+2022.09.10 15:56:52 INFO  time: compiled root in 56ms
+2022.09.10 15:56:54 INFO  compiling root (1 scala source)
+2022.09.10 15:56:54 INFO  time: compiled root in 0.12s
+9月 10, 2022 3:57:27 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 17469
+9月 10, 2022 3:57:30 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 17481
+2022.09.10 15:57:38 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:19:31: stale bloop error: not found: value const
+    val data_shift = Seq.fill(const.matrix_port.length)(RegInit(0.F(fixpoint_num_length.W,BinaryPoint_place.BP)))
+                              ^^^^^
+2022.09.10 15:57:38 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:19:31: stale bloop error: not found: value const
+    val data_shift = Seq.fill(const.matrix_port.length)(RegInit(0.F(fixpoint_num_length.W,BinaryPoint_place.BP)))
+                              ^^^^^
+2022.09.10 15:57:38 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:19:31: stale bloop error: not found: value const
+    val data_shift = Seq.fill(const.matrix_port.length)(RegInit(0.F(fixpoint_num_length.W,BinaryPoint_place.BP)))
+                              ^^^^^
+2022.09.10 15:57:38 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:19:31: stale bloop error: not found: value const
+    val data_shift = Seq.fill(const.matrix_port.length)(RegInit(0.F(fixpoint_num_length.W,BinaryPoint_place.BP)))
+                              ^^^^^
+2022.09.10 15:57:39 INFO  compiling root (1 scala source)
+2022.09.10 15:57:39 INFO  time: compiled root in 0.14s
+2022.09.10 15:57:46 INFO  compiling root (1 scala source)
+2022.09.10 15:57:46 INFO  time: compiled root in 0.1s
+2022.09.10 15:57:48 INFO  compiling root (1 scala source)
+2022.09.10 15:57:48 INFO  time: compiled root in 59ms
+2022.09.10 15:57:57 INFO  compiling root (1 scala source)
+2022.09.10 15:57:57 INFO  time: compiled root in 0.14s
+2022.09.10 16:00:14 INFO  compiling root (1 scala source)
+2022.09.10 16:00:14 INFO  time: compiled root in 0.12s
+2022.09.10 16:00:25 INFO  compiling root (1 scala source)
+2022.09.10 16:00:25 INFO  time: compiled root in 63ms
+2022.09.10 16:00:29 INFO  compiling root (1 scala source)
+2022.09.10 16:00:29 INFO  time: compiled root in 61ms
+2022.09.10 16:00:45 INFO  compiling root (1 scala source)
+2022.09.10 16:00:45 INFO  time: compiled root in 0.1s
+2022.09.10 16:00:49 INFO  compiling root (1 scala source)
+2022.09.10 16:00:49 INFO  time: compiled root in 0.1s
+2022.09.10 16:00:51 INFO  compiling root (1 scala source)
+2022.09.10 16:00:51 INFO  time: compiled root in 66ms
+2022.09.10 16:00:54 INFO  compiling root (1 scala source)
+2022.09.10 16:00:54 INFO  time: compiled root in 0.13s
+2022.09.10 16:01:06 INFO  compiling root (1 scala source)
+2022.09.10 16:01:06 INFO  time: compiled root in 0.85s
+2022.09.10 16:01:51 INFO  compiling root (1 scala source)
+2022.09.10 16:01:51 INFO  time: compiled root in 0.79s
+9月 10, 2022 4:12:37 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 17817
+2022.09.10 16:12:38 INFO  compiling root (1 scala source)
+2022.09.10 16:12:38 INFO  time: compiled root in 0.85s
+2022.09.10 16:12:41 INFO  compiling root (1 scala source)
+2022.09.10 16:12:41 INFO  time: compiled root in 0.78s
+2022.09.10 16:12:47 INFO  compiling root (1 scala source)
+2022.09.10 16:12:47 INFO  time: compiled root in 0.85s
+2022.09.10 16:15:36 INFO  compiling root (1 scala source)
+2022.09.10 16:15:36 INFO  time: compiled root in 81ms
+2022.09.10 16:15:37 INFO  compiling root (1 scala source)
+2022.09.10 16:15:37 INFO  time: compiled root in 0.12s
+2022.09.10 16:15:43 INFO  compiling root (1 scala source)
+2022.09.10 16:15:43 INFO  time: compiled root in 0.78s
+2022.09.10 16:15:47 INFO  compiling root (1 scala source)
+2022.09.10 16:15:47 INFO  time: compiled root in 66ms
+9月 10, 2022 4:15:49 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 17924
+2022.09.10 16:15:50 INFO  compiling root (1 scala source)
+2022.09.10 16:15:50 INFO  time: compiled root in 0.12s
+9月 10, 2022 4:16:04 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 17955
+2022.09.10 16:17:23 INFO  compiling root (1 scala source)
+2022.09.10 16:17:23 INFO  time: compiled root in 0.16s
+2022.09.10 16:17:25 INFO  compiling root (1 scala source)
+2022.09.10 16:17:25 INFO  time: compiled root in 65ms
+2022.09.10 16:17:29 INFO  compiling root (1 scala source)
+2022.09.10 16:17:29 INFO  time: compiled root in 0.13s
+2022.09.10 16:17:33 INFO  compiling root (1 scala source)
+2022.09.10 16:17:33 INFO  time: compiled root in 76ms
+2022.09.10 16:17:37 INFO  compiling root (1 scala source)
+2022.09.10 16:17:37 INFO  time: compiled root in 0.12s
+2022.09.10 16:17:40 INFO  compiling root (1 scala source)
+2022.09.10 16:17:40 INFO  time: compiled root in 0.15s
+2022.09.10 16:17:49 INFO  compiling root (1 scala source)
+2022.09.10 16:17:49 INFO  time: compiled root in 0.91s
+2022.09.10 16:17:51 INFO  compiling root (1 scala source)
+2022.09.10 16:17:51 INFO  time: compiled root in 0.82s
+2022.09.10 16:17:55 INFO  compiling root (1 scala source)
+2022.09.10 16:17:55 INFO  time: compiled root in 0.87s
+2022.09.10 16:17:57 INFO  compiling root (1 scala source)
+2022.09.10 16:17:57 INFO  time: compiled root in 0.8s
+2022.09.10 16:19:13 INFO  compiling root (1 scala source)
+2022.09.10 16:19:13 INFO  time: compiled root in 0.9s
+2022.09.10 16:19:16 INFO  compiling root (1 scala source)
+2022.09.10 16:19:16 INFO  time: compiled root in 0.14s
+2022.09.10 16:19:19 INFO  compiling root (1 scala source)
+2022.09.10 16:19:19 INFO  time: compiled root in 0.12s
+2022.09.10 16:19:57 INFO  compiling root (1 scala source)
+2022.09.10 16:19:57 INFO  time: compiled root in 0.13s
+2022.09.10 16:20:02 INFO  compiling root (1 scala source)
+2022.09.10 16:20:02 INFO  time: compiled root in 0.8s
+2022.09.10 16:21:12 INFO  compiling root (1 scala source)
+2022.09.10 16:21:12 INFO  time: compiled root in 0.97s
+2022.09.10 16:21:33 INFO  compiling root (1 scala source)
+2022.09.10 16:21:33 INFO  time: compiled root in 0.89s
+2022.09.10 16:21:37 INFO  compiling root (1 scala source)
+2022.09.10 16:21:38 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 16:21:38 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 16:21:39 WARN  failed to generate semanticdb for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:
+/home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:20: error: => expected but , found
+    data_shift.zipWithIndex.foreach{case(a),b) => 
+                                           ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:352)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:356)
+	at scala.meta.internal.parsers.ScalametaParser.caseBody$1(ScalametaParser.scala:2261)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$caseClause$1(ScalametaParser.scala:2273)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.caseClause(ScalametaParser.scala:2259)
+	at scala.meta.internal.parsers.ScalametaParser.iter$2(ScalametaParser.scala:2304)
+	at scala.meta.internal.parsers.ScalametaParser.caseClausesIfAny(ScalametaParser.scala:2310)
+	at scala.meta.internal.parsers.ScalametaParser.caseClauses(ScalametaParser.scala:2287)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockExpr$3(ScalametaParser.scala:2242)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.blockExpr(ScalametaParser.scala:2241)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExprsWithUsing(ScalametaParser.scala:2207)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:2162)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:2125)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$5(ScalametaParser.scala:2078)
+	at scala.util.Success.map(Try.scala:262)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:2078)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:334)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:344)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2028)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2026)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2010)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:1992)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1565)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1454)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4165)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4151)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4103)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$1(ScalametaParser.scala:4143)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$1$adapted(ScalametaParser.scala:4142)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:514)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:4142)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:3988)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOr(ScalametaParser.scala:231)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:227)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:3988)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:3996)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:3910)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:3932)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:3919)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:3962)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:3951)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:3615)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:3591)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3550)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3535)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$4.applyOrElse(ScalametaParser.scala:4122)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$4.applyOrElse(ScalametaParser.scala:4110)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4103)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4302)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4315)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4315)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4315)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4272)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4270)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:56)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:129)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:203)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:54)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.saveSemanticdbForCompilationUnit(SemanticdbPipeline.scala:60)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.apply(SemanticdbPipeline.scala:67)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:459)
+	at scala.tools.nsc.Global$GlobalPhase.run(Global.scala:406)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.run(SemanticdbPipeline.scala:77)
+	at scala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1524)
+	at scala.tools.nsc.Global$Run.compileUnits(Global.scala:1508)
+	at scala.tools.nsc.Global$Run.compileSources(Global.scala:1500)
+	at scala.tools.nsc.Global$Run.compileFiles(Global.scala:1613)
+	at xsbt.CachedCompiler0.run(CompilerBridge.scala:163)
+	at xsbt.CachedCompiler0.run(CompilerBridge.scala:134)
+	at xsbt.CompilerBridge.run(CompilerBridge.scala:39)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:133)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)
+	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)
+	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1426)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+2022.09.10 16:21:39 INFO  time: compiled root in 2.28s
+2022.09.10 16:21:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 16:21:41 INFO  compiling root (1 scala source)
+2022.09.10 16:21:41 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:20:42: stale bloop error: illegal character '\uff08'
+    data_shift.zipWithIndex.foreach{case(（a),b) => 
+                                         ^
+2022.09.10 16:21:41 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:20:42: stale bloop error: illegal character '\uff08'
+    data_shift.zipWithIndex.foreach{case(（a),b) => 
+                                         ^
+2022.09.10 16:21:41 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:22:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.09.10 16:21:41 INFO  time: compiled root in 63ms
+2022.09.10 16:21:41 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:20:42: stale bloop error: illegal character '\uff08'
+    data_shift.zipWithIndex.foreach{case(（a),b) => 
+                                         ^
+2022.09.10 16:21:41 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:22:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.09.10 16:21:41 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:20:42: stale bloop error: illegal character '\uff08'
+    data_shift.zipWithIndex.foreach{case(（a),b) => 
+                                         ^
+2022.09.10 16:21:41 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:22:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.09.10 16:21:41 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 16:21:42 INFO  compiling root (1 scala source)
+2022.09.10 16:21:42 INFO  time: compiled root in 0.78s
+2022.09.10 16:23:52 INFO  compiling root (1 scala source)
+2022.09.10 16:23:52 INFO  time: compiled root in 0.13s
+2022.09.10 16:23:57 INFO  compiling root (1 scala source)
+2022.09.10 16:23:57 INFO  time: compiled root in 0.12s
+2022.09.10 16:24:04 INFO  compiling root (1 scala source)
+2022.09.10 16:24:04 INFO  time: compiled root in 0.12s
+2022.09.10 16:24:06 INFO  compiling root (1 scala source)
+2022.09.10 16:24:06 INFO  time: compiled root in 0.8s
+2022.09.10 16:24:11 INFO  compiling root (1 scala source)
+2022.09.10 16:24:11 INFO  time: compiled root in 0.14s
+2022.09.10 16:24:22 INFO  compiling root (1 scala source)
+2022.09.10 16:24:22 INFO  time: compiled root in 0.13s
+2022.09.10 16:24:27 INFO  compiling root (1 scala source)
+2022.09.10 16:24:27 INFO  time: compiled root in 0.79s
+9月 10, 2022 4:24:44 下午 scala.meta.internal.pc.CompletionProvider expected$1
+警告: offset 865, count -1, length 887
+2022.09.10 16:24:47 INFO  compiling root (1 scala source)
+2022.09.10 16:24:47 INFO  time: compiled root in 0.12s
+9月 10, 2022 4:24:48 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 18647
+9月 10, 2022 4:24:48 下午 scala.meta.internal.pc.CompletionProvider expected$1
+警告: offset 865, count -1, length 893
+2022.09.10 16:24:50 INFO  compiling root (1 scala source)
+2022.09.10 16:24:50 INFO  time: compiled root in 0.12s
+2022.09.10 16:24:54 INFO  compiling root (1 scala source)
+2022.09.10 16:24:54 INFO  time: compiled root in 0.12s
+2022.09.10 16:24:56 INFO  compiling root (1 scala source)
+2022.09.10 16:24:56 INFO  time: compiled root in 0.13s
+2022.09.10 16:24:56 INFO  compiling root (1 scala source)
+2022.09.10 16:24:57 INFO  time: compiled root in 0.12s
+2022.09.10 16:25:05 INFO  compiling root (1 scala source)
+2022.09.10 16:25:05 INFO  time: compiled root in 0.12s
+2022.09.10 16:25:12 INFO  compiling root (1 scala source)
+2022.09.10 16:25:12 INFO  time: compiled root in 0.13s
+2022.09.10 16:25:16 INFO  compiling root (1 scala source)
+2022.09.10 16:25:16 INFO  time: compiled root in 0.88s
+2022.09.10 16:25:18 INFO  compiling root (1 scala source)
+2022.09.10 16:25:18 INFO  time: compiled root in 0.79s
+2022.09.10 16:25:19 INFO  compiling root (1 scala source)
+2022.09.10 16:25:19 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 16:25:19 INFO  time: compiled root in 0.87s
+2022.09.10 16:25:23 INFO  compiling root (1 scala source)
+2022.09.10 16:25:23 INFO  time: compiled root in 0.14s
+2022.09.10 16:25:39 INFO  compiling root (1 scala source)
+2022.09.10 16:25:41 INFO  time: compiled root in 1.09s
+2022.09.10 16:25:53 INFO  compiling root (1 scala source)
+2022.09.10 16:25:53 INFO  time: compiled root in 0.82s
+2022.09.10 16:27:05 INFO  compiling root (1 scala source)
+2022.09.10 16:27:05 INFO  time: compiled root in 60ms
+9月 10, 2022 4:27:07 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 18827
+2022.09.10 16:27:09 INFO  compiling root (1 scala source)
+2022.09.10 16:27:09 INFO  time: compiled root in 58ms
+2022.09.10 16:27:10 INFO  compiling root (1 scala source)
+2022.09.10 16:27:10 INFO  time: compiled root in 66ms
+2022.09.10 16:27:12 INFO  compiling root (1 scala source)
+2022.09.10 16:27:12 INFO  time: compiled root in 0.12s
+2022.09.10 16:27:17 INFO  compiling root (1 scala source)
+2022.09.10 16:27:17 INFO  time: compiled root in 0.86s
+2022.09.10 16:27:21 INFO  compiling root (1 scala source)
+2022.09.10 16:27:22 INFO  time: compiled root in 1.06s
+2022.09.10 16:35:35 INFO  compiling root (1 scala source)
+2022.09.10 16:35:35 INFO  time: compiled root in 0.15s
+2022.09.10 16:35:37 INFO  compiling root (1 scala source)
+2022.09.10 16:35:37 INFO  time: compiled root in 0.82s
+2022.09.10 16:35:46 INFO  compiling root (1 scala source)
+2022.09.10 16:35:46 INFO  time: compiled root in 0.8s
+9月 10, 2022 4:35:53 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 18981
+2022.09.10 16:36:03 INFO  compiling root (1 scala source)
+2022.09.10 16:36:03 INFO  time: compiled root in 73ms
+2022.09.10 16:36:04 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 16:36:04 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 16:36:05 INFO  compiling root (1 scala source)
+2022.09.10 16:36:05 INFO  time: compiled root in 0.88s
+2022.09.10 16:36:34 INFO  compiling root (1 scala source)
+2022.09.10 16:36:35 INFO  time: compiled root in 1.02s
+2022.09.10 16:36:37 INFO  compiling root (1 scala source)
+2022.09.10 16:36:37 INFO  time: compiled root in 0.15s
+2022.09.10 16:36:38 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 16:36:39 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 16:36:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 16:36:40 INFO  compiling root (1 scala source)
+2022.09.10 16:36:41 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 16:36:40 INFO  time: compiled root in 0.94s
+2022.09.10 16:36:48 INFO  compiling root (1 scala source)
+2022.09.10 16:36:48 INFO  time: compiled root in 0.89s
+2022.09.10 16:36:52 INFO  compiling root (1 scala source)
+2022.09.10 16:36:52 INFO  time: compiled root in 0.88s
+2022.09.10 16:36:54 INFO  compiling root (1 scala source)
+2022.09.10 16:36:54 INFO  time: compiled root in 0.89s
+2022.09.10 16:36:57 INFO  compiling root (1 scala source)
+2022.09.10 16:36:57 INFO  time: compiled root in 0.82s
+2022.09.10 16:36:59 INFO  compiling root (1 scala source)
+2022.09.10 16:36:59 INFO  time: compiled root in 0.14s
+2022.09.10 16:37:06 INFO  compiling root (1 scala source)
+2022.09.10 16:37:06 INFO  time: compiled root in 0.15s
+2022.09.10 16:37:12 INFO  compiling root (1 scala source)
+2022.09.10 16:37:12 INFO  time: compiled root in 0.88s
+2022.09.10 16:37:14 INFO  compiling root (1 scala source)
+2022.09.10 16:37:14 INFO  time: compiled root in 0.82s
+2022.09.10 16:37:42 INFO  compiling root (1 scala source)
+2022.09.10 16:37:42 INFO  time: compiled root in 0.83s
+2022.09.10 16:41:25 INFO  compiling root (1 scala source)
+2022.09.10 16:41:25 INFO  time: compiled root in 0.99s
+2022.09.10 16:41:43 INFO  compiling root (1 scala source)
+2022.09.10 16:41:43 INFO  time: compiled root in 0.81s
+9月 10, 2022 4:41:44 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 19249
+2022.09.10 16:41:47 INFO  compiling root (1 scala source)
+2022.09.10 16:41:47 INFO  time: compiled root in 70ms
+2022.09.10 16:41:52 INFO  compiling root (1 scala source)
+2022.09.10 16:41:52 INFO  time: compiled root in 59ms
+2022.09.10 16:41:53 INFO  compiling root (1 scala source)
+2022.09.10 16:41:53 INFO  time: compiled root in 61ms
+2022.09.10 16:42:00 INFO  compiling root (1 scala source)
+2022.09.10 16:42:00 INFO  time: compiled root in 56ms
+2022.09.10 16:42:02 INFO  compiling root (1 scala source)
+2022.09.10 16:42:02 INFO  time: compiled root in 57ms
+2022.09.10 16:42:07 INFO  compiling root (1 scala source)
+2022.09.10 16:42:07 INFO  time: compiled root in 60ms
+2022.09.10 16:42:13 INFO  compiling root (1 scala source)
+2022.09.10 16:42:13 INFO  time: compiled root in 58ms
+2022.09.10 16:42:17 INFO  compiling root (1 scala source)
+2022.09.10 16:42:17 INFO  time: compiled root in 59ms
+2022.09.10 16:42:19 INFO  compiling root (1 scala source)
+2022.09.10 16:42:19 INFO  time: compiled root in 62ms
+2022.09.10 16:42:21 INFO  compiling root (1 scala source)
+2022.09.10 16:42:21 INFO  time: compiled root in 0.1s
+2022.09.10 16:42:23 INFO  compiling root (1 scala source)
+2022.09.10 16:42:23 INFO  time: compiled root in 62ms
+2022.09.10 16:42:42 INFO  compiling root (1 scala source)
+2022.09.10 16:42:42 INFO  time: compiled root in 57ms
+2022.09.10 16:42:49 INFO  compiling root (1 scala source)
+2022.09.10 16:42:49 INFO  time: compiled root in 61ms
+2022.09.10 16:42:53 INFO  compiling root (1 scala source)
+2022.09.10 16:42:53 INFO  time: compiled root in 63ms
+2022.09.10 16:42:53 INFO  compiling root (1 scala source)
+2022.09.10 16:42:53 INFO  time: compiled root in 52ms
+2022.09.10 16:42:58 INFO  compiling root (1 scala source)
+2022.09.10 16:42:58 INFO  time: compiled root in 0.14s
+9月 10, 2022 4:43:01 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 19459
+2022.09.10 16:43:04 INFO  compiling root (1 scala source)
+2022.09.10 16:43:04 INFO  time: compiled root in 0.21s
+2022.09.10 16:43:05 INFO  compiling root (1 scala source)
+2022.09.10 16:43:05 INFO  time: compiled root in 0.12s
+2022.09.10 16:43:09 INFO  compiling root (1 scala source)
+2022.09.10 16:43:09 INFO  time: compiled root in 0.14s
+9月 10, 2022 4:43:11 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 19495
+2022.09.10 16:43:11 INFO  compiling root (1 scala source)
+2022.09.10 16:43:11 INFO  time: compiled root in 0.14s
+2022.09.10 16:43:11 INFO  compiling root (1 scala source)
+2022.09.10 16:43:12 INFO  time: compiled root in 0.11s
+2022.09.10 16:43:12 INFO  compiling root (1 scala source)
+2022.09.10 16:43:12 INFO  time: compiled root in 0.12s
+2022.09.10 16:43:15 INFO  compiling root (1 scala source)
+2022.09.10 16:43:15 INFO  time: compiled root in 0.14s
+2022.09.10 16:43:18 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:31:24: stale bloop error: not enough arguments for constructor matrix_bundle: (width: Int, length: Int): sliding_window.this.matrix_bundle.
+Unspecified value parameters width, length.
+    val slid_windows = new matrix_bundle
+                       ^^^^^^^^^^^^^^^^^
+2022.09.10 16:43:18 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:31:24: stale bloop error: not enough arguments for constructor matrix_bundle: (width: Int, length: Int): sliding_window.this.matrix_bundle.
+Unspecified value parameters width, length.
+    val slid_windows = new matrix_bundle
+                       ^^^^^^^^^^^^^^^^^
+2022.09.10 16:43:20 INFO  compiling root (1 scala source)
+2022.09.10 16:43:20 INFO  time: compiled root in 0.12s
+2022.09.10 16:43:23 INFO  compiling root (1 scala source)
+2022.09.10 16:43:23 INFO  time: compiled root in 0.14s
+2022.09.10 16:44:00 INFO  compiling root (1 scala source)
+2022.09.10 16:44:00 INFO  time: compiled root in 0.21s
+2022.09.10 16:44:07 INFO  compiling root (1 scala source)
+2022.09.10 16:44:07 INFO  time: compiled root in 0.13s
+2022.09.10 16:44:10 INFO  compiling root (1 scala source)
+2022.09.10 16:44:10 INFO  time: compiled root in 0.12s
+2022.09.10 16:44:10 INFO  compiling root (1 scala source)
+2022.09.10 16:44:11 INFO  time: compiled root in 0.14s
+2022.09.10 16:44:11 INFO  compiling root (1 scala source)
+2022.09.10 16:44:11 INFO  time: compiled root in 0.13s
+2022.09.10 16:44:11 INFO  compiling root (1 scala source)
+2022.09.10 16:44:11 INFO  time: compiled root in 0.12s
+2022.09.10 16:44:11 INFO  compiling root (1 scala source)
+2022.09.10 16:44:11 INFO  time: compiled root in 0.14s
+2022.09.10 16:44:15 INFO  compiling root (1 scala source)
+2022.09.10 16:44:15 INFO  time: compiled root in 0.17s
+2022.09.10 16:51:19 INFO  compiling root (1 scala source)
+2022.09.10 16:51:19 INFO  time: compiled root in 0.11s
+2022.09.10 16:51:21 INFO  compiling root (1 scala source)
+2022.09.10 16:51:21 INFO  time: compiled root in 81ms
+2022.09.10 16:51:24 INFO  compiling root (1 scala source)
+2022.09.10 16:51:24 INFO  time: compiled root in 0.13s
+2022.09.10 16:51:24 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:31:24: stale bloop error: not enough arguments for constructor matrix_bundle: (width: Int, length: Int): sliding_window.this.matrix_bundle.
+Unspecified value parameters width, length.
+    val slid_windows = new matrix_bundle
+                       ^^^^^^^^^^^^^^^^^
+2022.09.10 16:51:24 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:31:24: stale bloop error: not enough arguments for constructor matrix_bundle: (width: Int, length: Int): sliding_window.this.matrix_bundle.
+Unspecified value parameters width, length.
+    val slid_windows = new matrix_bundle
+                       ^^^^^^^^^^^^^^^^^
+2022.09.10 16:51:24 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:31:24: stale bloop error: not enough arguments for constructor matrix_bundle: (width: Int, length: Int): sliding_window.this.matrix_bundle.
+Unspecified value parameters width, length.
+    val slid_windows = new matrix_bundle
+                       ^^^^^^^^^^^^^^^^^
+2022.09.10 16:51:24 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:31:24: stale bloop error: not enough arguments for constructor matrix_bundle: (width: Int, length: Int): sliding_window.this.matrix_bundle.
+Unspecified value parameters width, length.
+    val slid_windows = new matrix_bundle
+                       ^^^^^^^^^^^^^^^^^
+2022.09.10 16:51:27 INFO  compiling root (1 scala source)
+2022.09.10 16:51:27 INFO  time: compiled root in 0.26s
+2022.09.10 16:51:39 INFO  compiling root (1 scala source)
+2022.09.10 16:51:39 INFO  time: compiled root in 0.13s
+2022.09.10 17:10:04 INFO  compiling root (1 scala source)
+2022.09.10 17:10:04 INFO  time: compiled root in 0.16s
+2022.09.10 17:10:30 INFO  compiling root (1 scala source)
+2022.09.10 17:10:30 INFO  time: compiled root in 0.15s
+2022.09.10 17:10:30 INFO  compiling root (1 scala source)
+2022.09.10 17:10:30 INFO  time: compiled root in 0.12s
+2022.09.10 17:10:30 INFO  compiling root (1 scala source)
+2022.09.10 17:10:30 INFO  time: compiled root in 0.14s
+2022.09.10 17:10:30 INFO  compiling root (1 scala source)
+2022.09.10 17:10:30 INFO  time: compiled root in 0.12s
+2022.09.10 17:10:31 INFO  compiling root (1 scala source)
+2022.09.10 17:10:31 INFO  time: compiled root in 0.14s
+2022.09.10 17:10:34 INFO  compiling root (1 scala source)
+2022.09.10 17:10:34 INFO  time: compiled root in 65ms
+2022.09.10 17:10:36 INFO  compiling root (1 scala source)
+2022.09.10 17:10:36 INFO  time: compiled root in 58ms
+2022.09.10 17:10:40 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:31:1: stale bloop error: Missing closing brace `}` assumed here
+class sliding_window(width:Int, height:Int , cnn_kernel_width :Int )extends Module with basic_macro {
+^
+2022.09.10 17:10:40 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:31:1: stale bloop error: Missing closing brace `}` assumed here
+class sliding_window(width:Int, height:Int , cnn_kernel_width :Int )extends Module with basic_macro {
+^
+2022.09.10 17:10:40 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:31:1: stale bloop error: Missing closing brace `}` assumed here
+class sliding_window(width:Int, height:Int , cnn_kernel_width :Int )extends Module with basic_macro {
+^
+2022.09.10 17:10:41 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:31:1: stale bloop error: Missing closing brace `}` assumed here
+class sliding_window(width:Int, height:Int , cnn_kernel_width :Int )extends Module with basic_macro {
+^
+2022.09.10 17:10:42 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:31:1: stale bloop error: Missing closing brace `}` assumed here
+class sliding_window(width:Int, height:Int , cnn_kernel_width :Int )extends Module with basic_macro {
+^
+2022.09.10 17:10:42 INFO  compiling root (1 scala source)
+2022.09.10 17:10:42 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:31:63: stale bloop error: illegal character '\uff0c'
+    val slid_windows_port = new matrix_bundle(cnn_kernel_width，cnn_kernel_width)
+                                                              ^
+2022.09.10 17:10:42 INFO  time: compiled root in 0.1s
+2022.09.10 17:10:47 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:31:63: stale bloop error: illegal character '\uff0c'
+    val slid_windows_port = new matrix_bundle(cnn_kernel_width，cnn_kernel_width)
+                                                              ^
+2022.09.10 17:10:47 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:31:63: stale bloop error: illegal character '\uff0c'
+    val slid_windows_port = new matrix_bundle(cnn_kernel_width，cnn_kernel_width)
+                                                              ^
+2022.09.10 17:10:47 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:31:63: stale bloop error: illegal character '\uff0c'
+    val slid_windows_port = new matrix_bundle(cnn_kernel_width，cnn_kernel_width)
+                                                              ^
+2022.09.10 17:10:48 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:31:63: stale bloop error: illegal character '\uff0c'
+    val slid_windows_port = new matrix_bundle(cnn_kernel_width，cnn_kernel_width)
+                                                              ^
+2022.09.10 17:10:50 INFO  compiling root (1 scala source)
+2022.09.10 17:10:50 INFO  time: compiled root in 0.88s
+2022.09.10 17:10:52 INFO  compiling root (1 scala source)
+2022.09.10 17:10:53 INFO  time: compiled root in 1.02s
+2022.09.10 17:10:59 INFO  compiling root (1 scala source)
+2022.09.10 17:10:59 INFO  time: compiled root in 58ms
+2022.09.10 17:11:00 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:03 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:04 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:07 INFO  compiling root (1 scala source)
+2022.09.10 17:11:07 INFO  time: compiled root in 0.15s
+2022.09.10 17:11:08 INFO  compiling root (1 scala source)
+2022.09.10 17:11:08 INFO  time: compiled root in 0.15s
+2022.09.10 17:11:09 INFO  compiling root (1 scala source)
+2022.09.10 17:11:11 INFO  time: compiled root in 1.09s
+2022.09.10 17:11:11 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:11 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:13 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:13 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:14 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:15 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:15 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:16 INFO  compiling root (1 scala source)
+2022.09.10 17:11:16 INFO  time: compiled root in 0.14s
+2022.09.10 17:11:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:21 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:22 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:23 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:31 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:32 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:32 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:33 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:34 INFO  compiling root (1 scala source)
+2022.09.10 17:11:34 INFO  time: compiled root in 61ms
+2022.09.10 17:11:34 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:46 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:47 INFO  compiling root (1 scala source)
+2022.09.10 17:11:47 INFO  time: compiled root in 0.14s
+2022.09.10 17:11:47 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:54 INFO  compiling root (1 scala source)
+2022.09.10 17:11:54 INFO  time: compiled root in 0.13s
+2022.09.10 17:11:55 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:56 INFO  compiling root (1 scala source)
+2022.09.10 17:11:56 INFO  time: compiled root in 0.13s
+2022.09.10 17:11:56 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:11:59 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:12:00 INFO  compiling root (1 scala source)
+2022.09.10 17:12:00 INFO  time: compiled root in 0.14s
+2022.09.10 17:12:00 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:12:38 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:12:39 INFO  compiling root (1 scala source)
+2022.09.10 17:12:39 INFO  time: compiled root in 0.14s
+2022.09.10 17:12:39 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+9月 10, 2022 5:12:41 下午 scala.meta.internal.pc.completions.Completions completionPosition
+严重: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:829)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:51)
+	at scala.meta.internal.pc.completions.Completions.fromIdentApply$1(Completions.scala:445)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:465)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:430)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:422)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:404)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:486)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:88)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+9月 10, 2022 5:12:41 下午 scala.meta.internal.pc.completions.Completions completionPosition
+严重: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:829)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:51)
+	at scala.meta.internal.pc.completions.Completions.fromIdentApply$1(Completions.scala:445)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:465)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:430)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:422)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:404)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:32)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:486)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:88)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+2022.09.10 17:12:41 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:12:42 INFO  compiling root (1 scala source)
+2022.09.10 17:12:42 INFO  time: compiled root in 57ms
+2022.09.10 17:12:43 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:13:04 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:13:05 INFO  compiling root (1 scala source)
+2022.09.10 17:13:05 INFO  time: compiled root in 0.11s
+2022.09.10 17:13:06 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:13:21 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:13:22 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:13:23 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:13:23 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:13:24 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:13:25 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:13:25 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:13:26 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:13:26 INFO  compiling root (1 scala source)
+2022.09.10 17:13:26 INFO  time: compiled root in 0.15s
+2022.09.10 17:13:27 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:13:31 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:13:32 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:13:33 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:13:34 INFO  compiling root (1 scala source)
+2022.09.10 17:13:34 INFO  time: compiled root in 0.13s
+2022.09.10 17:13:34 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:13:35 INFO  compiling root (1 scala source)
+2022.09.10 17:13:35 INFO  time: compiled root in 0.14s
+2022.09.10 17:13:36 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:13:36 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:13:37 INFO  compiling root (1 scala source)
+2022.09.10 17:13:37 INFO  time: compiled root in 0.19s
+2022.09.10 17:13:37 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:13:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:13:41 INFO  compiling root (1 scala source)
+2022.09.10 17:13:41 INFO  time: compiled root in 0.16s
+2022.09.10 17:13:41 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:13:44 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:13:45 INFO  compiling root (1 scala source)
+2022.09.10 17:13:45 INFO  time: compiled root in 0.15s
+2022.09.10 17:13:46 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:15:50 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:15:51 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:15:52 INFO  compiling root (1 scala source)
+2022.09.10 17:15:52 INFO  time: compiled root in 0.14s
+2022.09.10 17:15:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:15:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:15:54 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:15:55 INFO  compiling root (1 scala source)
+2022.09.10 17:15:55 INFO  time: compiled root in 0.16s
+2022.09.10 17:15:55 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:15:59 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:16:00 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:16:01 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:16:02 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:16:02 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:16:03 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:16:04 INFO  compiling root (1 scala source)
+2022.09.10 17:16:04 INFO  time: compiled root in 0.28s
+2022.09.10 17:16:04 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:16:05 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:16:05 INFO  compiling root (1 scala source)
+2022.09.10 17:16:05 INFO  time: compiled root in 0.23s
+2022.09.10 17:16:06 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:16:07 INFO  compiling root (1 scala source)
+2022.09.10 17:16:07 INFO  time: compiled root in 0.13s
+2022.09.10 17:16:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:16:46 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:16:52 INFO  compiling root (1 scala source)
+2022.09.10 17:16:52 INFO  time: compiled root in 0.13s
+2022.09.10 17:16:52 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:16:52 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:16:52 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:16:52 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:16:52 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:16:52 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:16:52 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:16:52 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:16:54 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:16:54 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:00 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:00 INFO  compiling root (1 scala source)
+2022.09.10 17:17:00 INFO  time: compiled root in 0.18s
+2022.09.10 17:17:01 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:03 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:04 INFO  compiling root (1 scala source)
+2022.09.10 17:17:04 INFO  time: compiled root in 0.15s
+2022.09.10 17:17:04 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:06 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:07 INFO  compiling root (1 scala source)
+2022.09.10 17:17:07 INFO  time: compiled root in 0.15s
+2022.09.10 17:17:08 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:09 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:10 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:10 INFO  compiling root (1 scala source)
+2022.09.10 17:17:10 INFO  time: compiled root in 60ms
+2022.09.10 17:17:11 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:11 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:11 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:11 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:12 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:13 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:14 INFO  compiling root (1 scala source)
+2022.09.10 17:17:14 INFO  time: compiled root in 0.16s
+2022.09.10 17:17:14 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:15 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:16 INFO  compiling root (1 scala source)
+2022.09.10 17:17:16 INFO  time: compiled root in 0.14s
+2022.09.10 17:17:16 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:16 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:18 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:18 INFO  compiling root (1 scala source)
+2022.09.10 17:17:18 INFO  time: compiled root in 0.13s
+2022.09.10 17:17:19 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:22 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:23 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:23 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:24 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:23 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:25 INFO  compiling root (1 scala source)
+2022.09.10 17:17:25 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:25 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:17:25 INFO  time: compiled root in 0.92s
+2022.09.10 17:17:26 INFO  compiling root (1 scala source)
+2022.09.10 17:17:26 INFO  time: compiled root in 0.21s
+2022.09.10 17:19:31 INFO  compiling root (1 scala source)
+2022.09.10 17:19:31 INFO  time: compiled root in 0.91s
+2022.09.10 17:20:45 INFO  compiling root (1 scala source)
+2022.09.10 17:20:45 INFO  time: compiled root in 0.15s
+2022.09.10 17:20:46 INFO  compiling root (1 scala source)
+2022.09.10 17:20:48 INFO  time: compiled root in 1.32s
+2022.09.10 17:20:48 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:20:49 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:20:50 INFO  compiling root (1 scala source)
+2022.09.10 17:20:50 INFO  time: compiled root in 0.14s
+2022.09.10 17:20:51 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:20:51 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:20:52 INFO  compiling root (1 scala source)
+2022.09.10 17:20:52 INFO  time: compiled root in 0.92s
+2022.09.10 17:21:04 INFO  compiling root (1 scala source)
+2022.09.10 17:21:04 INFO  time: compiled root in 60ms
+2022.09.10 17:21:06 INFO  compiling root (1 scala source)
+2022.09.10 17:21:06 INFO  time: compiled root in 0.88s
+2022.09.10 17:21:10 INFO  compiling root (1 scala source)
+2022.09.10 17:21:10 INFO  time: compiled root in 0.15s
+2022.09.10 17:21:10 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:21:21 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:21:21 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:21:22 INFO  compiling root (1 scala source)
+2022.09.10 17:21:22 INFO  time: compiled root in 0.91s
+2022.09.10 17:21:28 INFO  compiling root (1 scala source)
+2022.09.10 17:21:28 INFO  time: compiled root in 0.15s
+2022.09.10 17:21:34 INFO  compiling root (1 scala source)
+2022.09.10 17:21:34 INFO  time: compiled root in 0.9s
+9月 10, 2022 5:21:35 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 20581
+2022.09.10 17:21:38 INFO  compiling root (1 scala source)
+2022.09.10 17:21:39 INFO  time: compiled root in 1s
+2022.09.10 17:22:02 INFO  compiling root (1 scala source)
+2022.09.10 17:22:03 INFO  time: compiled root in 1.22s
+2022.09.10 17:22:09 INFO  compiling root (1 scala source)
+2022.09.10 17:22:10 INFO  time: compiled root in 1.46s
+2022.09.10 17:22:12 INFO  compiling root (1 scala source)
+2022.09.10 17:22:12 INFO  time: compiled root in 0.15s
+2022.09.10 17:22:13 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:22:37 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:22:45 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:22:45 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:22:46 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:22:46 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:22:46 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:22:47 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:22:47 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:22:47 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:22:49 INFO  compiling root (1 scala source)
+2022.09.10 17:22:49 INFO  time: compiled root in 58ms
+2022.09.10 17:22:49 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:12 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:13 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:14 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:14 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:15 INFO  compiling root (1 scala source)
+2022.09.10 17:23:15 INFO  time: compiled root in 58ms
+2022.09.10 17:23:15 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:20 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:20 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:20 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:20 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:20 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:20 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:21 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:21 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:21 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:21 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:21 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:21 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:21 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:21 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:21 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:21 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:21 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:21 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:21 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:21 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:23 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:23 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:23 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:23 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:23 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:23 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:23 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:24 INFO  compiling root (1 scala source)
+2022.09.10 17:23:24 INFO  time: compiled root in 0.14s
+2022.09.10 17:23:25 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:25 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:31 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:32 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:36 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:37 INFO  compiling root (1 scala source)
+2022.09.10 17:23:37 INFO  time: compiled root in 59ms
+2022.09.10 17:23:37 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:39 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:40 INFO  compiling root (1 scala source)
+2022.09.10 17:23:40 INFO  time: compiled root in 0.16s
+2022.09.10 17:23:41 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:41 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:41 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:42 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:43 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:44 INFO  compiling root (1 scala source)
+2022.09.10 17:23:44 INFO  time: compiled root in 79ms
+2022.09.10 17:23:44 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:45 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:46 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:46 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:46 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:46 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:46 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:46 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:46 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:46 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:46 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:46 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:46 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:46 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:46 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:46 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:47 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:47 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:47 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:47 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+Exception in thread "pool-4-thread-10" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.09.10 17:23:47 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:47 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:47 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:47 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:48 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:48 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:49 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:49 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:50 INFO  compiling root (1 scala source)
+2022.09.10 17:23:50 INFO  time: compiled root in 0.13s
+2022.09.10 17:23:50 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:52 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+Exception in thread "pool-4-thread-11" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:54 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:54 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:56 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:57 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:58 INFO  compiling root (1 scala source)
+2022.09.10 17:23:58 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:58 INFO  time: compiled root in 0.16s
+2022.09.10 17:23:58 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:59 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:23:59 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:00 INFO  compiling root (1 scala source)
+2022.09.10 17:24:00 INFO  time: compiled root in 0.16s
+2022.09.10 17:24:00 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:02 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:02 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:03 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:04 INFO  compiling root (1 scala source)
+2022.09.10 17:24:04 INFO  time: compiled root in 0.13s
+2022.09.10 17:24:04 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:05 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:05 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:06 INFO  compiling root (1 scala source)
+2022.09.10 17:24:06 INFO  time: compiled root in 65ms
+2022.09.10 17:24:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:08 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:09 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:10 INFO  compiling root (1 scala source)
+2022.09.10 17:24:10 INFO  time: compiled root in 68ms
+2022.09.10 17:24:10 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:11 INFO  compiling root (1 scala source)
+2022.09.10 17:24:11 INFO  time: compiled root in 0.15s
+2022.09.10 17:24:12 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:18 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+9月 10, 2022 5:24:20 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 21001
+9月 10, 2022 5:24:20 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 21002
+2022.09.10 17:24:25 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:25 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:27 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:28 INFO  compiling root (1 scala source)
+2022.09.10 17:24:28 INFO  time: compiled root in 61ms
+2022.09.10 17:24:28 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:31 INFO  compiling root (1 scala source)
+2022.09.10 17:24:31 INFO  time: compiled root in 74ms
+2022.09.10 17:24:37 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:38 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:39 INFO  compiling root (1 scala source)
+2022.09.10 17:24:39 INFO  time: compiled root in 0.21s
+2022.09.10 17:24:39 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:39 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:41 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:42 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:42 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:43 INFO  compiling root (1 scala source)
+2022.09.10 17:24:43 INFO  time: compiled root in 66ms
+2022.09.10 17:24:44 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:45 INFO  compiling root (1 scala source)
+2022.09.10 17:24:45 INFO  time: compiled root in 0.17s
+2022.09.10 17:24:45 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:49 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:49 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:49 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:49 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:49 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:49 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:49 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:49 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:49 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:50 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:50 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:50 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:50 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:50 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:50 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:51 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:54 INFO  compiling root (1 scala source)
+2022.09.10 17:24:54 INFO  time: compiled root in 0.15s
+2022.09.10 17:24:54 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:24:57 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:02 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:03 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:05 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:06 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:07 INFO  compiling root (1 scala source)
+2022.09.10 17:25:07 INFO  time: compiled root in 0.18s
+2022.09.10 17:25:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:08 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:09 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:33:5: stale bloop error: value zipWithIndex is not a member of sliding_window.this.matrix_bundle
+    slid_windows_port.zipWithIndex.foreach{case(a,index) =>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.09.10 17:25:09 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:34:9: stale bloop error: sliding_window.this.matrix_bundle does not take parameters
+        slid_windows_port(index) := data_shift((index/cnn_kernel_width) * width + index%cnn_kernel_width)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+2022.09.10 17:25:09 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:34:49: stale bloop error: value / is not a member of Any
+        slid_windows_port(index) := data_shift((index/cnn_kernel_width) * width + index%cnn_kernel_width)
+                                                ^^^^^^
+2022.09.10 17:25:09 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:34:83: stale bloop error: value % is not a member of Any
+        slid_windows_port(index) := data_shift((index/cnn_kernel_width) * width + index%cnn_kernel_width)
+                                                                                  ^^^^^^
+2022.09.10 17:25:09 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:33:5: stale bloop error: value zipWithIndex is not a member of sliding_window.this.matrix_bundle
+    slid_windows_port.zipWithIndex.foreach{case(a,index) =>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.09.10 17:25:09 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:34:9: stale bloop error: sliding_window.this.matrix_bundle does not take parameters
+        slid_windows_port(index) := data_shift((index/cnn_kernel_width) * width + index%cnn_kernel_width)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+2022.09.10 17:25:09 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:34:49: stale bloop error: value / is not a member of Any
+        slid_windows_port(index) := data_shift((index/cnn_kernel_width) * width + index%cnn_kernel_width)
+                                                ^^^^^^
+2022.09.10 17:25:09 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:34:83: stale bloop error: value % is not a member of Any
+        slid_windows_port(index) := data_shift((index/cnn_kernel_width) * width + index%cnn_kernel_width)
+                                                                                  ^^^^^^
+2022.09.10 17:25:09 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:10 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:33:5: stale bloop error: value zipWithIndex is not a member of sliding_window.this.matrix_bundle
+    slid_windows_port.zipWithIndex.foreach{case(a,index) =>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.09.10 17:25:10 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:34:9: stale bloop error: sliding_window.this.matrix_bundle does not take parameters
+        slid_windows_port(index) := data_shift((index/cnn_kernel_width) * width + index%cnn_kernel_width)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+2022.09.10 17:25:10 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:34:49: stale bloop error: value / is not a member of Any
+        slid_windows_port(index) := data_shift((index/cnn_kernel_width) * width + index%cnn_kernel_width)
+                                                ^^^^^^
+2022.09.10 17:25:10 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:34:83: stale bloop error: value % is not a member of Any
+        slid_windows_port(index) := data_shift((index/cnn_kernel_width) * width + index%cnn_kernel_width)
+                                                                                  ^^^^^^
+2022.09.10 17:25:10 INFO  compiling root (1 scala source)
+2022.09.10 17:25:10 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:33:22: stale bloop error: illegal character '\u3002'
+    slid_windows_port。.zipWithIndex.foreach{case(a,index) =>
+                     ^
+2022.09.10 17:25:10 INFO  time: compiled root in 57ms
+2022.09.10 17:25:10 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:33:22: stale bloop error: illegal character '\u3002'
+    slid_windows_port。.zipWithIndex.foreach{case(a,index) =>
+                     ^
+2022.09.10 17:25:10 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:33:22: stale bloop error: illegal character '\u3002'
+    slid_windows_port。.zipWithIndex.foreach{case(a,index) =>
+                     ^
+2022.09.10 17:25:10 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:10 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:33:22: stale bloop error: illegal character '\u3002'
+    slid_windows_port。.zipWithIndex.foreach{case(a,index) =>
+                     ^
+2022.09.10 17:25:11 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:33:22: stale bloop error: illegal character '\u3002'
+    slid_windows_port。.zipWithIndex.foreach{case(a,index) =>
+                     ^
+2022.09.10 17:25:11 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:10 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:33:22: stale bloop error: illegal character '\u3002'
+    slid_windows_port。.zipWithIndex.foreach{case(a,index) =>
+                     ^
+2022.09.10 17:25:11 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:33:22: stale bloop error: illegal character '\u3002'
+    slid_windows_port。.zipWithIndex.foreach{case(a,index) =>
+                     ^
+2022.09.10 17:25:10 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:33:22: stale bloop error: illegal character '\u3002'
+    slid_windows_port。.zipWithIndex.foreach{case(a,index) =>
+                     ^
+2022.09.10 17:25:11 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:33:22: stale bloop error: illegal character '\u3002'
+    slid_windows_port。.zipWithIndex.foreach{case(a,index) =>
+                     ^
+2022.09.10 17:25:12 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:33:22: stale bloop error: illegal character '\u3002'
+    slid_windows_port。.zipWithIndex.foreach{case(a,index) =>
+                     ^
+2022.09.10 17:25:11 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:33:22: stale bloop error: illegal character '\u3002'
+    slid_windows_port。.zipWithIndex.foreach{case(a,index) =>
+                     ^
+2022.09.10 17:25:12 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:12 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:33:22: stale bloop error: illegal character '\u3002'
+    slid_windows_port。.zipWithIndex.foreach{case(a,index) =>
+                     ^
+2022.09.10 17:25:13 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:13 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:33:22: stale bloop error: illegal character '\u3002'
+    slid_windows_port。.zipWithIndex.foreach{case(a,index) =>
+                     ^
+2022.09.10 17:25:13 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:33:22: stale bloop error: illegal character '\u3002'
+    slid_windows_port。.zipWithIndex.foreach{case(a,index) =>
+                     ^
+2022.09.10 17:25:13 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:33:22: stale bloop error: illegal character '\u3002'
+    slid_windows_port。.zipWithIndex.foreach{case(a,index) =>
+                     ^
+2022.09.10 17:25:14 INFO  compiling root (1 scala source)
+2022.09.10 17:25:14 INFO  time: compiled root in 0.14s
+2022.09.10 17:25:14 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:14 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:15 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:15 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:16 INFO  compiling root (1 scala source)
+2022.09.10 17:25:16 INFO  time: compiled root in 0.14s
+2022.09.10 17:25:16 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:18 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:20 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:21 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:22 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:23 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:23 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:24 INFO  compiling root (1 scala source)
+2022.09.10 17:25:24 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:24 INFO  time: compiled root in 0.93s
+2022.09.10 17:25:30 INFO  compiling root (1 scala source)
+2022.09.10 17:25:30 INFO  time: compiled root in 0.88s
+2022.09.10 17:25:36 INFO  compiling root (1 scala source)
+2022.09.10 17:25:36 INFO  time: compiled root in 0.78s
+2022.09.10 17:25:39 INFO  compiling root (1 scala source)
+2022.09.10 17:25:39 INFO  time: compiled root in 0.93s
+2022.09.10 17:25:42 INFO  compiling root-test (6 scala sources)
+2022.09.10 17:25:42 INFO  time: compiled root-test in 0.18s
+2022.09.10 17:25:42 INFO  compiling root-test (6 scala sources)
+2022.09.10 17:25:42 INFO  time: compiled root-test in 0.18s
+2022.09.10 17:25:44 INFO  compiling root-test (6 scala sources)
+2022.09.10 17:25:44 INFO  time: compiled root-test in 0.16s
+2022.09.10 17:25:44 INFO  compiling root-test (6 scala sources)
+2022.09.10 17:25:44 INFO  time: compiled root-test in 0.16s
+2022.09.10 17:25:44 INFO  compiling root-test (6 scala sources)
+2022.09.10 17:25:44 INFO  time: compiled root-test in 0.16s
+2022.09.10 17:25:48 INFO  compiling root (1 scala source)
+2022.09.10 17:25:49 INFO  time: compiled root in 1s
+2022.09.10 17:25:51 INFO  compiling root (1 scala source)
+2022.09.10 17:25:51 INFO  time: compiled root in 0.14s
+2022.09.10 17:25:51 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:51 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:52 INFO  compiling root (1 scala source)
+2022.09.10 17:25:52 INFO  time: compiled root in 0.15s
+2022.09.10 17:25:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:55 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:55 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:56 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:56 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:57 INFO  compiling root (1 scala source)
+2022.09.10 17:25:57 INFO  time: compiled root in 0.16s
+2022.09.10 17:25:58 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:25:58 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:26:00 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:26:00 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:26:00 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:26:01 INFO  compiling root (1 scala source)
+2022.09.10 17:26:00 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:26:01 INFO  time: compiled root in 0.99s
+2022.09.10 17:26:04 INFO  compiling root (1 scala source)
+2022.09.10 17:26:04 INFO  time: compiled root in 0.92s
+2022.09.10 17:26:05 INFO  compiling root (1 scala source)
+2022.09.10 17:26:06 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 17:26:06 INFO  time: compiled root in 1s
+2022.09.10 17:26:06 INFO  compiling root (1 scala source)
+2022.09.10 17:26:09 INFO  time: compiled root in 2.5s
+2022.09.10 17:26:30 INFO  compiling root (1 scala source)
+2022.09.10 17:26:30 INFO  time: compiled root in 0.84s
+2022.09.10 17:26:30 INFO  compiling root (2 scala sources)
+2022.09.10 17:26:30 INFO  time: compiled root in 0.15s
+2022.09.10 17:27:05 INFO  compiling root (1 scala source)
+2022.09.10 17:27:05 INFO  time: compiled root in 0.88s
+2022.09.10 17:27:05 INFO  compiling root (2 scala sources)
+2022.09.10 17:27:06 INFO  time: compiled root in 0.14s
+2022.09.10 17:27:06 INFO  compiling root (1 scala source)
+2022.09.10 17:27:06 INFO  compiling root (2 scala sources)
+2022.09.10 17:27:07 INFO  time: compiled root in 0.14s
+9月 10, 2022 5:27:08 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 21437
+9月 10, 2022 5:27:19 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 21457
+2022.09.10 17:27:25 INFO  compiling root (1 scala source)
+2022.09.10 17:27:25 INFO  time: compiled root in 0.15s
+2022.09.10 17:27:29 INFO  compiling root (1 scala source)
+2022.09.10 17:27:29 INFO  time: compiled root in 0.16s
+2022.09.10 17:27:29 INFO  compiling root (1 scala source)
+2022.09.10 17:27:29 INFO  time: compiled root in 0.14s
+9月 10, 2022 5:27:32 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 21517
+9月 10, 2022 5:27:32 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 21518
+9月 10, 2022 5:27:32 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 21515
+2022.09.10 17:27:34 INFO  compiling root (1 scala source)
+2022.09.10 17:27:34 INFO  time: compiled root in 0.14s
+2022.09.10 17:27:36 INFO  compiling root (1 scala source)
+2022.09.10 17:27:36 INFO  time: compiled root in 0.18s
+2022.09.10 17:27:38 INFO  compiling root (1 scala source)
+2022.09.10 17:27:38 INFO  time: compiled root in 0.16s
+2022.09.10 17:28:29 INFO  compiling root (1 scala source)
+2022.09.10 17:28:29 INFO  time: compiled root in 0.16s
+2022.09.10 17:28:45 INFO  compiling root (1 scala source)
+2022.09.10 17:28:45 INFO  time: compiled root in 0.99s
+2022.09.10 17:28:54 INFO  compiling root (1 scala source)
+2022.09.10 17:28:54 INFO  time: compiled root in 73ms
+2022.09.10 17:28:59 INFO  compiling root (1 scala source)
+2022.09.10 17:28:59 INFO  time: compiled root in 62ms
+2022.09.10 17:28:59 INFO  compiling root (1 scala source)
+2022.09.10 17:28:59 INFO  time: compiled root in 74ms
+9月 10, 2022 5:29:02 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+严重: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala:46: error: file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala:46: error: expected identifier; obtained rbrace
+}
+^
+}
+^
+	at scala.meta.internal.mtags.ScalaToplevelMtags.fail(ScalaToplevelMtags.scala:452)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.newIdentifier(ScalaToplevelMtags.scala:437)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:339)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:162)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:269)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:202)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:202)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:197)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definitionOrReferences$1(MetalsLanguageServer.scala:2550)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsLanguageServer.definitionOrReferences(MetalsLanguageServer.scala:2546)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$definition$1(MetalsLanguageServer.scala:1463)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.definition(MetalsLanguageServer.scala:1462)
+	... 15 more
+
+2022.09.10 17:29:03 INFO  compiling root (1 scala source)
+2022.09.10 17:29:03 INFO  time: compiled root in 0.92s
+2022.09.10 17:29:03 INFO  compiling root (2 scala sources)
+2022.09.10 17:29:05 INFO  time: compiled root in 0.95s
+2022.09.10 17:29:05 INFO  compiling root (1 scala source)
+2022.09.10 17:29:05 INFO  time: compiled root in 55ms
+2022.09.10 17:29:06 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:06 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:09 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:10 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:11 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:12 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:12 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:12 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:13 INFO  compiling root (1 scala source)
+2022.09.10 17:29:13 INFO  time: compiled root in 0.9s
+2022.09.10 17:29:13 INFO  compiling root (2 scala sources)
+2022.09.10 17:29:15 INFO  time: compiled root in 0.96s
+2022.09.10 17:29:21 INFO  compiling root (1 scala source)
+2022.09.10 17:29:22 INFO  time: compiled root in 1.17s
+2022.09.10 17:29:25 INFO  compiling root (1 scala source)
+2022.09.10 17:29:25 INFO  time: compiled root in 70ms
+2022.09.10 17:29:26 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:27 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:27 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:28 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:29:28 INFO  compiling root (1 scala source)
+2022.09.10 17:29:28 INFO  time: compiled root in 0.92s
+2022.09.10 17:29:31 INFO  compiling root (1 scala source)
+2022.09.10 17:29:31 INFO  time: compiled root in 58ms
+2022.09.10 17:29:36 INFO  compiling root (1 scala source)
+2022.09.10 17:29:36 INFO  time: compiled root in 57ms
+2022.09.10 17:29:38 INFO  compiling root (1 scala source)
+2022.09.10 17:29:38 INFO  time: compiled root in 0.14s
+2022.09.10 17:29:43 INFO  compiling root (1 scala source)
+2022.09.10 17:29:43 INFO  time: compiled root in 0.18s
+2022.09.10 17:29:45 INFO  compiling root (1 scala source)
+2022.09.10 17:29:46 INFO  time: compiled root in 1s
+2022.09.10 17:29:56 INFO  compiling root-test (6 scala sources)
+2022.09.10 17:29:56 INFO  time: compiled root-test in 0.18s
+2022.09.10 17:29:59 INFO  compiling root (1 scala source)
+2022.09.10 17:30:00 INFO  time: compiled root in 1.01s
+2022.09.10 17:30:00 INFO  compiling root (1 scala source)
+2022.09.10 17:30:02 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:30:02 INFO  time: compiled root in 1s
+2022.09.10 17:30:03 INFO  compiling root (1 scala source)
+2022.09.10 17:30:03 INFO  time: compiled root in 0.95s
+2022.09.10 17:30:09 INFO  compiling root (1 scala source)
+2022.09.10 17:30:09 INFO  time: compiled root in 0.98s
+2022.09.10 17:30:14 INFO  compiling root (1 scala source)
+2022.09.10 17:30:14 INFO  time: compiled root in 0.94s
+2022.09.10 17:30:17 INFO  compiling root-test (6 scala sources)
+2022.09.10 17:30:17 INFO  time: compiled root-test in 0.19s
+2022.09.10 17:30:20 INFO  compiling root (1 scala source)
+2022.09.10 17:30:21 INFO  time: compiled root in 1.01s
+2022.09.10 17:30:22 INFO  compiling root (1 scala source)
+2022.09.10 17:30:22 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:30:22 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:30:22 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:30:22 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:30:22 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:30:22 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:30:22 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:30:22 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:30:22 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:30:22 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:30:22 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:30:22 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:30:23 INFO  time: compiled root in 1.05s
+2022.09.10 17:30:26 INFO  compiling root (1 scala source)
+9月 10, 2022 5:30:26 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 22087
+2022.09.10 17:30:27 INFO  time: compiled root in 1.02s
+2022.09.10 17:30:27 INFO  compiling root (1 scala source)
+2022.09.10 17:30:27 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:30:28 INFO  time: compiled root in 1.05s
+2022.09.10 17:30:35 INFO  compiling root (1 scala source)
+2022.09.10 17:30:35 INFO  time: compiled root in 0.15s
+2022.09.10 17:30:38 INFO  compiling root (1 scala source)
+2022.09.10 17:30:38 INFO  time: compiled root in 0.93s
+2022.09.10 17:30:41 INFO  compiling root-test (6 scala sources)
+2022.09.10 17:30:41 INFO  time: compiled root-test in 0.19s
+2022.09.10 17:30:41 INFO  compiling root-test (6 scala sources)
+2022.09.10 17:30:41 INFO  time: compiled root-test in 0.15s
+9月 10, 2022 5:30:51 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 22201
+2022.09.10 17:30:52 INFO  compiling root (1 scala source)
+2022.09.10 17:30:52 INFO  time: compiled root in 0.17s
+2022.09.10 17:30:55 INFO  compiling root (1 scala source)
+2022.09.10 17:30:55 INFO  time: compiled root in 0.24s
+2022.09.10 17:30:57 INFO  compiling root (1 scala source)
+2022.09.10 17:30:57 INFO  time: compiled root in 0.2s
+2022.09.10 17:30:58 INFO  compiling root (1 scala source)
+9月 10, 2022 5:30:58 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 22239
+2022.09.10 17:30:58 INFO  time: compiled root in 0.16s
+2022.09.10 17:31:00 INFO  compiling root (1 scala source)
+2022.09.10 17:31:00 INFO  time: compiled root in 0.15s
+2022.09.10 17:31:03 INFO  compiling root (1 scala source)
+2022.09.10 17:31:03 INFO  time: compiled root in 0.15s
+2022.09.10 17:31:09 INFO  compiling root (1 scala source)
+2022.09.10 17:31:09 INFO  time: compiled root in 0.17s
+2022.09.10 17:31:11 INFO  compiling root (1 scala source)
+2022.09.10 17:31:11 INFO  time: compiled root in 0.16s
+2022.09.10 17:31:13 INFO  compiling root (1 scala source)
+2022.09.10 17:31:13 INFO  time: compiled root in 0.15s
+2022.09.10 17:31:19 INFO  compiling root (1 scala source)
+2022.09.10 17:31:19 INFO  time: compiled root in 0.16s
+2022.09.10 17:31:23 INFO  compiling root (1 scala source)
+2022.09.10 17:31:23 INFO  time: compiled root in 0.16s
+2022.09.10 17:31:35 INFO  compiling root (1 scala source)
+2022.09.10 17:31:35 INFO  time: compiled root in 0.16s
+2022.09.10 17:31:37 INFO  compiling root (1 scala source)
+2022.09.10 17:31:37 INFO  time: compiled root in 0.18s
+9月 10, 2022 5:31:39 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 22422
+2022.09.10 17:31:47 INFO  compiling root (1 scala source)
+2022.09.10 17:31:47 INFO  time: compiled root in 0.15s
+2022.09.10 17:31:49 INFO  compiling root (1 scala source)
+2022.09.10 17:31:49 INFO  time: compiled root in 0.2s
+2022.09.10 17:31:54 INFO  compiling root (1 scala source)
+2022.09.10 17:31:54 INFO  time: compiled root in 0.17s
+2022.09.10 17:32:07 INFO  compiling root (1 scala source)
+2022.09.10 17:32:07 INFO  time: compiled root in 0.95s
+2022.09.10 17:33:10 INFO  compiling root (1 scala source)
+2022.09.10 17:33:10 INFO  time: compiled root in 64ms
+2022.09.10 17:33:14 INFO  compiling root (1 scala source)
+2022.09.10 17:33:14 INFO  time: compiled root in 0.99s
+2022.09.10 17:33:47 INFO  compiling root-test (6 scala sources)
+2022.09.10 17:33:47 INFO  time: compiled root-test in 0.17s
+2022.09.10 17:33:47 INFO  compiling root-test (6 scala sources)
+2022.09.10 17:33:47 INFO  time: compiled root-test in 0.17s
+2022.09.10 17:33:48 INFO  compiling root (1 scala source)
+2022.09.10 17:33:48 INFO  time: compiled root in 0.14s
+2022.09.10 17:33:50 INFO  compiling root (1 scala source)
+2022.09.10 17:33:51 INFO  time: compiled root in 1.03s
+2022.09.10 17:33:51 INFO  compiling root (2 scala sources)
+2022.09.10 17:33:51 INFO  time: compiled root in 0.97s
+2022.09.10 17:33:52 INFO  compiling root (1 scala source)
+2022.09.10 17:33:52 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:33:53 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 17:33:52 INFO  time: compiled root in 0.99s
+2022.09.10 17:33:56 INFO  compiling root (1 scala source)
+2022.09.10 17:33:56 INFO  time: compiled root in 75ms
+2022.09.10 17:34:01 INFO  compiling root (1 scala source)
+2022.09.10 17:34:01 INFO  time: compiled root in 72ms
+2022.09.10 17:34:04 INFO  compiling root (1 scala source)
+2022.09.10 17:34:04 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.8' (since 33h 14m 14.719s)
+2022.09.10 17:34:04 INFO  compiling root (1 scala source)
+2022.09.10 17:34:05 INFO  time: compiled root in 77ms
+2022.09.10 17:34:05 INFO  compiling root (2 scala sources)
+2022.09.10 17:34:05 INFO  time: compiled root in 325μs
+2022.09.10 17:34:05 INFO  compiling root (2 scala sources)
+9月 10, 2022 5:34:05 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 22656
+9月 10, 2022 5:34:05 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 22657
+9月 10, 2022 5:34:06 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 22659
+2022.09.10 17:34:06 INFO  compiling root-test (6 scala sources)
+2022.09.10 17:34:06 INFO  time: compiled root in 1.01s
+2022.09.10 17:34:06 INFO  time: compiled root-test in 0.17s
+2022.09.10 17:34:06 INFO  compiling root-test (6 scala sources)
+2022.09.10 17:34:06 INFO  time: compiled root-test in 0.17s
+2022.09.10 17:34:09 INFO  compiling root (1 scala source)
+2022.09.10 17:34:10 INFO  time: compiled root in 1.11s
+2022.09.10 18:11:54 INFO  compiling root (1 scala source)
+2022.09.10 18:11:55 INFO  time: compiled root in 1.07s
+2022.09.10 18:11:58 INFO  compiling root-test (6 scala sources)
+2022.09.10 18:11:58 INFO  time: compiled root-test in 0.17s
+2022.09.10 18:12:02 INFO  compiling root (1 scala source)
+2022.09.10 18:12:02 INFO  time: compiled root in 0.14s
+2022.09.10 18:12:05 INFO  compiling root (1 scala source)
+2022.09.10 18:12:05 INFO  time: compiled root in 0.15s
+2022.09.10 18:12:11 INFO  compiling root (1 scala source)
+2022.09.10 18:12:12 INFO  time: compiled root in 1.01s
+2022.09.10 18:12:12 INFO  compiling root (2 scala sources)
+2022.09.10 18:12:13 INFO  time: compiled root in 1.16s
+9月 10, 2022 6:12:14 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 22850
+2022.09.10 18:12:14 INFO  compiling root-test (6 scala sources)
+2022.09.10 18:12:14 INFO  time: compiled root-test in 0.18s
+2022.09.10 18:12:14 INFO  compiling root-test (6 scala sources)
+2022.09.10 18:12:14 INFO  time: compiled root-test in 0.15s
+9月 10, 2022 6:12:15 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 22860
+2022.09.10 18:12:18 INFO  compiling root (1 scala source)
+2022.09.10 18:12:19 INFO  time: compiled root in 1.05s
+2022.09.10 18:12:20 INFO  compiling root (1 scala source)
+2022.09.10 18:12:21 INFO  time: compiled root in 1.1s
+2022.09.10 18:12:21 INFO  compiling root (1 scala source)
+2022.09.10 18:12:23 INFO  time: compiled root in 1.05s
+2022.09.10 18:12:24 INFO  compiling root (1 scala source)
+2022.09.10 18:12:25 INFO  time: compiled root in 1.01s
+2022.09.10 18:13:30 INFO  compiling root (1 scala source)
+2022.09.10 18:13:31 INFO  time: compiled root in 1.04s
+2022.09.10 18:13:32 INFO  compiling root (1 scala source)
+2022.09.10 18:13:33 INFO  time: compiled root in 1.01s
+2022.09.10 18:16:07 INFO  compiling root (1 scala source)
+2022.09.10 18:16:07 INFO  time: compiled root in 0.37s
+2022.09.10 18:16:09 INFO  compiling root (1 scala source)
+2022.09.10 18:16:09 INFO  time: compiled root in 0.41s
+9月 10, 2022 6:17:05 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 22971
+2022.09.10 18:17:05 INFO  compiling root-test (6 scala sources)
+2022.09.10 18:17:05 INFO  time: compiled root-test in 0.18s
+2022.09.10 18:17:05 INFO  compiling root-test (6 scala sources)
+2022.09.10 18:17:05 INFO  time: compiled root-test in 0.18s
+2022.09.10 18:17:08 INFO  compiling root (1 scala source)
+2022.09.10 18:17:08 INFO  time: compiled root in 0.36s
+2022.09.10 18:17:11 INFO  compiling root (1 scala source)
+2022.09.10 18:17:11 INFO  time: compiled root in 0.38s
+2022.09.10 18:17:12 INFO  compiling root (1 scala source)
+2022.09.10 18:17:12 INFO  time: compiled root in 0.38s
+2022.09.10 18:17:15 INFO  compiling root (1 scala source)
+2022.09.10 18:17:15 INFO  time: compiled root in 0.14s
+2022.09.10 18:17:17 INFO  compiling root (1 scala source)
+2022.09.10 18:17:17 INFO  time: compiled root in 0.53s
+2022.09.10 18:17:18 INFO  compiling root (1 scala source)
+2022.09.10 18:17:18 INFO  time: compiled root in 0.5s
+2022.09.10 18:17:52 INFO  compiling root (1 scala source)
+2022.09.10 18:17:54 INFO  time: compiled root in 1.36s
+2022.09.10 18:17:54 INFO  compiling root (1 scala source)
+2022.09.10 18:17:54 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:17:54 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:17:54 INFO  time: compiled root in 59ms
+2022.09.10 18:17:54 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:17:54 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:17:55 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:17:55 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:17:56 INFO  compiling root (1 scala source)
+2022.09.10 18:17:56 INFO  time: compiled root in 58ms
+2022.09.10 18:17:57 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:17:57 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:17:57 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:17:57 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:17:58 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:17:58 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:18:00 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:18:00 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:18:01 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:18:01 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:18:02 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:18:02 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:18:02 INFO  compiling root (1 scala source)
+2022.09.10 18:18:02 INFO  time: compiled root in 59ms
+2022.09.10 18:18:03 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:18:03 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:18:06 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:18:06 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:18:07 INFO  compiling root (1 scala source)
+2022.09.10 18:18:07 INFO  time: compiled root in 62ms
+2022.09.10 18:18:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:18:07 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:18:08 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:18:08 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:18:09 INFO  compiling root (1 scala source)
+2022.09.10 18:18:09 INFO  time: compiled root in 0.17s
+2022.09.10 18:18:09 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:18:09 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:19:21 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:19:23 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:19:24 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:19:24 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:19:25 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:19:26 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:19:27 INFO  compiling root (1 scala source)
+2022.09.10 18:19:27 INFO  time: compiled root in 0.16s
+2022.09.10 18:19:27 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:19:34 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:20:49 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:20:50 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:20:51 INFO  compiling root (1 scala source)
+2022.09.10 18:20:51 INFO  time: compiled root in 0.16s
+2022.09.10 18:20:52 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:21:11 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:21:11 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:21:14 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:21:15 INFO  compiling root (1 scala source)
+2022.09.10 18:21:15 INFO  time: compiled root in 60ms
+2022.09.10 18:21:15 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:21:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:21:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:21:18 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:21:19 INFO  compiling root (1 scala source)
+2022.09.10 18:21:20 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:21:20 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:21:21 INFO  time: compiled root in 1.33s
+2022.09.10 18:21:28 INFO  compiling root (1 scala source)
+2022.09.10 18:21:28 INFO  time: compiled root in 0.17s
+2022.09.10 18:21:38 INFO  compiling root (1 scala source)
+2022.09.10 18:21:38 INFO  time: compiled root in 0.15s
+2022.09.10 18:21:41 INFO  compiling root (1 scala source)
+2022.09.10 18:21:41 INFO  time: compiled root in 61ms
+2022.09.10 18:21:44 INFO  compiling root (1 scala source)
+2022.09.10 18:21:44 INFO  time: compiled root in 64ms
+2022.09.10 18:22:14 INFO  compiling root (2 scala sources)
+2022.09.10 18:22:14 INFO  time: compiled root in 71ms
+2022.09.10 18:22:14 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:15 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:16 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:17 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:18 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:18 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:18 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:18 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:18 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:18 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:18 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:18 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:18 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:18 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:18 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:18 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:18 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:18 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:18 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:18 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:19 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:20 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:20 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:20 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:22:21 INFO  compiling root (2 scala sources)
+2022.09.10 18:22:21 INFO  time: compiled root in 63ms
+2022.09.10 18:22:21 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:23:08 INFO  compiling root (2 scala sources)
+2022.09.10 18:23:08 INFO  time: compiled root in 0.19s
+2022.09.10 18:23:09 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/basic_macro.scala
+2022.09.10 18:23:36 INFO  compiling root (2 scala sources)
+2022.09.10 18:23:37 INFO  time: compiled root in 1.41s
+2022.09.10 18:23:37 INFO  compiling root (1 scala source)
+2022.09.10 18:23:38 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:23:37 INFO  time: compiled root in 0.18s
+2022.09.10 18:23:38 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:23:39 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:23:40 INFO  compiling root (1 scala source)
+2022.09.10 18:23:40 INFO  time: compiled root in 0.16s
+2022.09.10 18:23:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:23:40 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:23:42 INFO  compiling root (1 scala source)
+2022.09.10 18:23:42 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:23:42 INFO  time: compiled root in 0.17s
+2022.09.10 18:23:43 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:23:43 INFO  compiling root (1 scala source)
+2022.09.10 18:23:43 INFO  time: compiled root in 0.17s
+2022.09.10 18:23:44 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:23:44 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:23:45 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:23:46 INFO  compiling root (1 scala source)
+2022.09.10 18:23:46 INFO  time: compiled root in 0.17s
+2022.09.10 18:23:47 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:23:48 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:23:49 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:23:50 INFO  compiling root (1 scala source)
+2022.09.10 18:23:50 INFO  time: compiled root in 0.17s
+2022.09.10 18:23:50 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala
+2022.09.10 18:23:51 INFO  compiling root (1 scala source)
+2022.09.10 18:23:52 INFO  time: compiled root in 1.08s
+2022.09.10 18:24:18 INFO  compiling root (1 scala source)
+2022.09.10 18:24:18 INFO  time: compiled root in 0.56s
+2022.09.10 18:24:20 INFO  compiling root (1 scala source)
+2022.09.10 18:24:20 INFO  time: compiled root in 0.5s
+2022.09.10 18:24:23 INFO  compiling root (1 scala source)
+2022.09.10 18:24:23 INFO  time: compiled root in 56ms
+2022.09.10 18:24:25 INFO  compiling root (1 scala source)
+2022.09.10 18:24:25 INFO  time: compiled root in 0.61s
+2022.09.10 18:24:27 INFO  compiling root (1 scala source)
+2022.09.10 18:24:27 INFO  time: compiled root in 0.14s
+2022.09.10 18:24:27 WARN  Could not load snapshot text for /home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/conv_cal.scala
+2022.09.10 18:24:28 INFO  compiling root (1 scala source)
+2022.09.10 18:24:28 INFO  time: compiled root in 0.6s
+2022.09.10 18:24:31 INFO  compiling root (1 scala source)
+2022.09.10 18:24:33 INFO  time: compiled root in 1.95s
+2022.09.10 18:24:42 INFO  compiling root (1 scala source)
+2022.09.10 18:24:42 INFO  time: compiled root in 0.58s
+2022.09.10 18:24:48 INFO  compiling root (1 scala source)
+2022.09.10 18:24:48 INFO  time: compiled root in 81ms
+2022.09.10 18:24:52 INFO  compiling root (1 scala source)
+2022.09.10 18:24:52 INFO  time: compiled root in 0.8s
+2022.09.10 18:24:57 INFO  compiling root (1 scala source)
+2022.09.10 18:24:57 INFO  time: compiled root in 0.6s
+9月 10, 2022 7:58:58 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 23779
+2022.09.10 20:04:27 INFO  compiling root (1 scala source)
+2022.09.10 20:04:27 INFO  time: compiled root in 0.81s
+2022.09.10 20:04:34 INFO  compiling root (1 scala source)
+2022.09.10 20:04:34 INFO  time: compiled root in 76ms
+2022.09.10 20:04:59 INFO  compiling root (1 scala source)
+2022.09.10 20:04:59 INFO  time: compiled root in 0.12s
+2022.09.10 20:05:04 INFO  compiling root (1 scala source)
+2022.09.10 20:05:04 INFO  time: compiled root in 0.11s
+2022.09.10 20:05:05 INFO  compiling root (1 scala source)
+2022.09.10 20:05:05 INFO  time: compiled root in 0.7s
+2022.09.10 20:05:06 INFO  compiling root (1 scala source)
+2022.09.10 20:05:06 INFO  time: compiled root in 0.7s
+2022.09.10 20:05:11 INFO  compiling root (1 scala source)
+2022.09.10 20:05:11 INFO  time: compiled root in 87ms
+9月 10, 2022 8:05:19 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 23961
+2022.09.10 20:05:24 INFO  compiling root (1 scala source)
+2022.09.10 20:05:24 INFO  time: compiled root in 57ms
+2022.09.10 20:07:20 INFO  compiling root (1 scala source)
+2022.09.10 20:07:20 INFO  time: compiled root in 67ms
+2022.09.10 20:07:39 INFO  compiling root (1 scala source)
+2022.09.10 20:07:39 INFO  time: compiled root in 0.15s
+2022.09.10 20:07:42 INFO  compiling root (1 scala source)
+2022.09.10 20:07:42 INFO  time: compiled root in 0.13s
+2022.09.10 20:07:47 INFO  compiling root (1 scala source)
+2022.09.10 20:07:47 INFO  time: compiled root in 57ms
+2022.09.10 20:07:51 INFO  compiling root (1 scala source)
+2022.09.10 20:07:51 INFO  time: compiled root in 0.14s
+2022.09.10 20:07:53 INFO  compiling root (1 scala source)
+2022.09.10 20:07:53 INFO  time: compiled root in 0.19s
+2022.09.10 20:07:55 INFO  compiling root (1 scala source)
+2022.09.10 20:07:55 INFO  time: compiled root in 0.76s
+2022.09.10 20:08:09 INFO  compiling root (1 scala source)
+2022.09.10 20:08:09 INFO  time: compiled root in 60ms
+2022.09.10 20:08:13 INFO  compiling root (1 scala source)
+2022.09.10 20:08:14 INFO  time: compiled root in 1.04s
+2022.09.10 20:08:14 INFO  compiling root (5 scala sources)
+2022.09.10 20:08:14 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.8' (since 35h 48m 23.434s)
+2022.09.10 20:08:14 INFO  compiling root (1 scala source)
+2022.09.10 20:08:14 INFO  time: compiled root in 2ms
+2022.09.10 20:08:14 INFO  compiling root (5 scala sources)
+9月 10, 2022 8:08:14 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 24216
+9月 10, 2022 8:08:14 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 24217
+2022.09.10 20:08:15 INFO  time: compiled root in 1.32s
+2022.09.10 20:08:15 INFO  compiling root-test (6 scala sources)
+2022.09.10 20:08:15 INFO  time: compiled root-test in 0.17s
+2022.09.10 20:08:15 INFO  compiling root-test (6 scala sources)
+2022.09.10 20:08:15 INFO  time: compiled root-test in 0.17s
+2022.09.10 20:08:18 INFO  compiling root (1 scala source)
+2022.09.10 20:08:18 INFO  time: compiled root in 0.74s
+9月 10, 2022 8:08:42 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+信息: Unsupported notification method: $/setTrace
+9月 10, 2022 8:08:45 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+信息: Unsupported notification method: $/setTrace
+9月 10, 2022 8:21:56 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 24245
+2022.09.10 20:36:27 INFO  compiling root (1 scala source)
+2022.09.10 20:36:27 INFO  time: compiled root in 0.8s
+2022.09.10 20:36:43 INFO  compiling root (1 scala source)
+2022.09.10 20:36:43 INFO  time: compiled root in 60ms
+2022.09.10 20:36:47 INFO  compiling root (1 scala source)
+2022.09.10 20:36:47 INFO  time: compiled root in 65ms
+2022.09.10 20:37:52 INFO  compiling root (1 scala source)
+2022.09.10 20:37:52 INFO  time: compiled root in 0.12s
+2022.09.10 20:37:56 INFO  compiling root (1 scala source)
+2022.09.10 20:37:56 INFO  time: compiled root in 0.12s
+9月 10, 2022 8:37:57 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 24407
+2022.09.10 20:38:00 INFO  compiling root (1 scala source)
+2022.09.10 20:38:00 INFO  time: compiled root in 0.11s
+2022.09.10 20:38:03 INFO  compiling root (1 scala source)
+2022.09.10 20:38:03 INFO  time: compiled root in 0.77s
+2022.09.10 20:38:07 INFO  compiling root (1 scala source)
+2022.09.10 20:38:07 INFO  time: compiled root in 61ms
+2022.09.10 20:38:52 INFO  compiling root (1 scala source)
+2022.09.10 20:38:52 INFO  time: compiled root in 58ms
+2022.09.10 20:38:53 INFO  compiling root (1 scala source)
+2022.09.10 20:38:53 INFO  time: compiled root in 69ms
+2022.09.10 20:38:56 INFO  compiling root (1 scala source)
+2022.09.10 20:38:56 INFO  time: compiled root in 66ms
+2022.09.10 20:38:57 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/conv_cal.scala:17:5: stale bloop error: ')' expected but '}' found.
+    })
+    ^
+2022.09.10 20:38:57 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/conv_cal.scala:17:5: stale bloop error: ')' expected but '}' found.
+    })
+    ^
+2022.09.10 20:38:57 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/conv_cal.scala:17:5: stale bloop error: ')' expected but '}' found.
+    })
+    ^
+2022.09.10 20:38:57 INFO  file:///home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/conv_cal.scala:17:5: stale bloop error: ')' expected but '}' found.
+    })
+    ^
+2022.09.10 20:39:00 INFO  compiling root (1 scala source)
+2022.09.10 20:39:00 INFO  time: compiled root in 0.72s
+2022.09.10 20:39:14 INFO  compiling root (1 scala source)
+2022.09.10 20:39:14 INFO  time: compiled root in 0.73s
+2022.09.10 20:39:31 INFO  compiling root (1 scala source)
+2022.09.10 20:39:31 INFO  time: compiled root in 62ms
+2022.09.10 20:39:37 INFO  compiling root (1 scala source)
+2022.09.10 20:39:37 INFO  time: compiled root in 0.12s
+2022.09.10 20:39:39 INFO  compiling root (1 scala source)
+2022.09.10 20:39:39 INFO  time: compiled root in 0.85s
+2022.09.10 20:39:42 INFO  compiling root (1 scala source)
+2022.09.10 20:39:42 INFO  time: compiled root in 60ms
+2022.09.10 20:39:49 INFO  compiling root (1 scala source)
+2022.09.10 20:39:49 INFO  time: compiled root in 65ms
+2022.09.10 20:39:54 INFO  compiling root (1 scala source)
+2022.09.10 20:39:54 INFO  time: compiled root in 69ms
+2022.09.10 20:39:59 INFO  compiling root (1 scala source)
+2022.09.10 20:39:59 INFO  time: compiled root in 0.76s
+2022.09.10 20:40:02 INFO  compiling root (1 scala source)
+2022.09.10 20:40:02 INFO  time: compiled root in 0.74s
+2022.09.10 20:44:11 INFO  compiling root (1 scala source)
+2022.09.10 20:44:11 INFO  time: compiled root in 61ms
+2022.09.10 20:44:17 INFO  compiling root (1 scala source)
+2022.09.10 20:44:17 INFO  time: compiled root in 0.12s
+2022.09.10 20:44:20 INFO  compiling root (1 scala source)
+2022.09.10 20:44:20 INFO  time: compiled root in 0.78s
+2022.09.10 20:44:34 INFO  compiling root (1 scala source)
+2022.09.10 20:44:34 INFO  time: compiled root in 0.8s
+9月 10, 2022 8:45:00 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+信息: Unsupported notification method: $/setTrace
+2022.09.10 20:46:40 INFO  compiling root (1 scala source)
+2022.09.10 20:46:40 INFO  time: compiled root in 61ms
+2022.09.10 20:46:50 INFO  compiling root (1 scala source)
+2022.09.10 20:46:50 INFO  time: compiled root in 58ms
+2022.09.10 20:46:55 INFO  compiling root (1 scala source)
+2022.09.10 20:46:55 INFO  time: compiled root in 57ms
+2022.09.10 20:47:00 INFO  compiling root (1 scala source)
+2022.09.10 20:47:00 INFO  time: compiled root in 60ms
+2022.09.10 20:47:06 INFO  compiling root (1 scala source)
+2022.09.10 20:47:06 INFO  time: compiled root in 66ms
+2022.09.10 20:47:35 INFO  compiling root (1 scala source)
+2022.09.10 20:47:35 INFO  time: compiled root in 0.73s
