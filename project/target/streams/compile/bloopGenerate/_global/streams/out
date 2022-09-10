@@ -1,4 +1,4 @@
-[debug] [cnn_chisel-build] Classpath dependencies List()
-[debug] [cnn_chisel-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'cnn_chisel-build' to '/home/ddddddd/learning/cnn_chisel/project/.bloop/cnn_chisel-build.json'
-[success] Generated .bloop/cnn_chisel-build.json
+[0m[[0m[0mdebug[0m] [0m[0m[cnn_chisel-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[cnn_chisel-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'cnn_chisel-build' to '/home/ddddddd/learning/cnn_chisel/project/.bloop/cnn_chisel-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/cnn_chisel-build.json[0m

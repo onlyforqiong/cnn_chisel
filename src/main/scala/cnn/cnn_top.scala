@@ -3,20 +3,16 @@ package cnn
 import chisel3._
 import chisel3.stage._
 import chisel3.util._
+import chisel3.experimental.FixedPoint
 
-class cnn_top extends Module  {
+class cnn_top extends Module  with basic_macro {
         
     val io = IO(new Bundle { 
-
-        val ctrl  = Input(UInt(24.W)) // 使用独热码来进行控制
-
-        val in1   = Input(UInt(32.W))
-        val in2   = Input(UInt(32.W))
-
-        val result = Output(UInt(32.W))
-        val overflow = Output(UInt(1.W))
-
+        val matrix_input  = Input(new matrix_bundle(3,3))
+        val matrix_const  = Input(new matrix_bundle(3,3))
+        val matrix_output = Output(FixedPoint(fixpoint_num_length.W,BinaryPoint_place.BP))
     })
+    io.matrix_output := Matrix_Mul(io.matrix_input,io.matrix_const)
     
 }
 
