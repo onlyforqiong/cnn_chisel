@@ -15,10 +15,10 @@ default: $(BIN)
 
 $(shell mkdir -p $(BUILD_DIR))
 
-# constraint file
-SRC_AUTO_BIND = $(abspath $(BUILD_DIR)/auto_bind.cpp)
-$(SRC_AUTO_BIND): $(NXDC_FILES)
-	python3 $(NVBOARD_HOME)/scripts/auto_pin_bind.py $^ $@
+# # constraint file
+# SRC_AUTO_BIND = $(abspath $(BUILD_DIR)/auto_bind.cpp)
+# $(SRC_AUTO_BIND): $(NXDC_FILES)
+# 	python3 $(NVBOARD_HOME)/scripts/auto_pin_bind.py $^ $@
 
 # project source
 VSRCS = $(shell find $(abspath .) -name "$(TOPNAME).v")
@@ -26,12 +26,12 @@ CSRCS = $(shell find $(abspath ./csrc) -name "*.c" -or -name "*.cc" -or -name "*
 
 
 # rules for NVBoard
-include $(NVBOARD_HOME)/scripts/nvboard.mk
+# include $(NVBOARD_HOME)/scripts/nvboard.mk
 
 # rules for verilator
 INCFLAGS = $(addprefix -I, $(INC_PATH))
 CFLAGS += $(INCFLAGS) -DTOP_NAME="\"V$(TOPNAME)\""
-LDFLAGS += -lSDL2 -lSDL2_image
+LDFLAGS += -lSDL2 -lSDL2_image -ltensorflow
 
 $(BIN): $(VSRCS) $(CSRCS) 
 	@rm -rf $(OBJ_DIR)

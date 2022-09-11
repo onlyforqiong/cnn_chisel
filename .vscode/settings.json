@@ -3,5 +3,8 @@
         "**/target": true
     },
     "commentTranslate.targetLanguage": "zh-CN",
-    "commentTranslate.hover.enabled": true
+    "commentTranslate.hover.enabled": true,
+    "files.associations": {
+        "bitset": "cpp"
+    }
 }

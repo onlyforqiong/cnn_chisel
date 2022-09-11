@@ -12,6 +12,10 @@
 #include<Vconv_cal.h>
 #include<verilated.h>
 #include<verilated_vcd_c.h>
+// extern "C" {
+	#include<tensorflow/c/c_api.h>
+// }
+
 #include<bitset>
 using namespace std;
 
@@ -95,6 +99,7 @@ void reset(T *top , int n) {
 }
 
 int main(int argc,char ** argv,char** env) {
+	printf("Hello from TensorFlow C library version %s\n", TF_Version());
 	memset(pmem,0,sizeof(pmem));
 	if(false && argc && argv && env) {}
 	memcpy(guest_to_host(RESET_VECTOR), img, sizeof(img));

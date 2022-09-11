@@ -4,7 +4,7 @@
 # Execute this makefile from the object directory:
 #    make -f Vconv_cal.mk
 
-default: /home/ddddddd/learning/cnn_chisel/build/conv_cal
+default: /media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/build/conv_cal
 
 ### Constants...
 # Perl executable (from $PERL)
@@ -35,13 +35,13 @@ VM_PREFIX = Vconv_cal
 VM_MODPREFIX = Vconv_cal
 # User CFLAGS (from -CFLAGS on Verilator command line)
 VM_USER_CFLAGS = \
-	-I/home/ddddddd/SynologyDrive/ysyx/ysyx-workbench/nvboard/include \
 	-DTOP_NAME="Vconv_cal" \
 
 # User LDLIBS (from -LDFLAGS on Verilator command line)
 VM_USER_LDLIBS = \
 	-lSDL2 \
 	-lSDL2_image \
+	-ltensorflow \
 
 # User .cpp files (from .cpp's on Verilator command line)
 VM_USER_CLASSES = \
@@ -49,7 +49,7 @@ VM_USER_CLASSES = \
 
 # User .cpp directories (from .cpp's on Verilator command line)
 VM_USER_DIR = \
-	/home/ddddddd/learning/cnn_chisel/csrc \
+	/media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/csrc \
 
 
 ### Default rules...
@@ -61,11 +61,11 @@ include $(VERILATOR_ROOT)/include/verilated.mk
 ### Executable rules... (from --exe)
 VPATH += $(VM_USER_DIR)
 
-main.o: /home/ddddddd/learning/cnn_chisel/csrc/main.cpp
+main.o: /media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/csrc/main.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
 
 ### Link rules... (from --exe)
-/home/ddddddd/learning/cnn_chisel/build/conv_cal: $(VK_USER_OBJS) $(VK_GLOBAL_OBJS) $(VM_PREFIX)__ALL.a $(VM_HIER_LIBS)
+/media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/build/conv_cal: $(VK_USER_OBJS) $(VK_GLOBAL_OBJS) $(VM_PREFIX)__ALL.a $(VM_HIER_LIBS)
 	$(LINK) $(LDFLAGS) $^ $(LOADLIBES) $(LDLIBS) $(LIBS) $(SC_LIBS) -o $@
 
 

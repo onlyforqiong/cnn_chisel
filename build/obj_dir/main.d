@@ -1,5 +1,6 @@
-main.o: /home/ddddddd/learning/cnn_chisel/csrc/main.cpp Vconv_cal.h \
- /usr/local/share/verilator/include/verilated.h \
+main.o: \
+ /media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/csrc/main.cpp \
+ Vconv_cal.h /usr/local/share/verilator/include/verilated.h \
  /usr/local/share/verilator/include/verilatedos.h \
  /usr/local/share/verilator/include/verilated_config.h \
  /usr/local/share/verilator/include/verilated_types.h \
