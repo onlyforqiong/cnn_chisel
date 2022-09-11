@@ -23,12 +23,12 @@ trait basic_macro  {
     def fixpoint_relu(a :FixedPoint) : FixedPoint = {
         Mux(a < 0.F(fixpoint_num_length.W,BinaryPoint_place.BP),0.F(fixpoint_num_length.W,BinaryPoint_place.BP),a)
     }
-
-    def List_Cal(a:Seq[FixedPoint],op:(FixedPoint,FixedPoint) => FixedPoint,start:Int,end:Int) : FixedPoint = {
+    def List_Cal(a:Seq[FixedPoint],op:(FixedPoint,FixedPoint) => FixedPoint,start:Int,end:Int) : (FixedPoint) = {
         if(start == end) {
-            RegNext(a(start))
+            (RegNext(a(start)))
+            
         }else if(start == (end - 1)) {
-            RegNext(op(a(start),a(end)))
+            (RegNext(op(a(start),a(end))))
         }else{
             RegNext(op(List_Cal(a,op,start,((end + start)/ 2 - 1)) , List_Cal(a,op,(start + end)/2,end)))
         }
