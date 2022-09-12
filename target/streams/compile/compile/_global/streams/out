@@ -1,4 +1,6 @@
-[0m[[0m[31merror[0m] [0m[0m/home/ddddddd/learning/cnn_chisel/src/main/scala/cnn/sliding_window.scala:43:75: too many arguments (found 2, expected 1) for constructor Counter: (n: Int): chisel3.util.Counter[0m
-[0m[[0m[31merror[0m] [0m[0m    val (counter_a,counter_b) = new Counter(io.data_valid,(width * height + full_counter))[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/src/main/scala/chisel_function_test/function_test.scala:31:56: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (width: chisel3.internal.firrtl.Width, binaryPoint: chisel3.internal.firrtl.BinaryPoint): chisel3.experimental.FixedPoint <and> (binaryPoint: chisel3.internal.firrtl.BinaryPoint): chisel3.experimental.FixedPoint[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.Data[0m
+[0m[[0m[31merror[0m] [0m[0m  io.out := Mux(io.valid,Matrix_Mul(io.in,io.consts),0.F)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

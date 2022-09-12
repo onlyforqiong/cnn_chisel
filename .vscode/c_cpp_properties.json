@@ -3,7 +3,8 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/build/**"
             ],
             "defines": [],
             "compilerPath": "/usr/lib/ccache/gcc",

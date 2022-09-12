@@ -1,1 +1,1 @@
-["cnn.conv_cal_test","cnn.sliding_window_test"]
+["cnn.chisel_func_test","cnn.conv_cal_test","cnn.sliding_window_test"]

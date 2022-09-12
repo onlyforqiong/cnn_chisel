@@ -2,15 +2,15 @@
     "version": "1.4.0",
     "project": {
         "name": "cnn_chisel-build",
-        "directory": "/home/ddddddd/learning/cnn_chisel/project",
-        "workspaceDir": "/home/ddddddd/learning/cnn_chisel/project",
+        "directory": "/media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/project",
+        "workspaceDir": "/media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/project",
         "sources": [
-            "/home/ddddddd/learning/cnn_chisel/project/src/main/scala",
-            "/home/ddddddd/learning/cnn_chisel/project/src/main/scala-2.12",
-            "/home/ddddddd/learning/cnn_chisel/project/src/main/scala-2",
-            "/home/ddddddd/learning/cnn_chisel/project/src/main/java",
-            "/home/ddddddd/learning/cnn_chisel/project/src/main/scala-sbt-1.0",
-            "/home/ddddddd/learning/cnn_chisel/project/target/scala-2.12/sbt-1.0/src_managed/main"
+            "/media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/project/src/main/scala",
+            "/media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/project/src/main/scala-2.12",
+            "/media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/project/src/main/scala-2",
+            "/media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/project/src/main/java",
+            "/media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/project/src/main/scala-sbt-1.0",
+            "/media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/project/target/scala-2.12/sbt-1.0/src_managed/main"
         ],
         "dependencies": [
             
@@ -105,11 +105,11 @@
             "/home/ddddddd/.cache/coursier/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar",
             "/home/ddddddd/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.jar"
         ],
-        "out": "/home/ddddddd/learning/cnn_chisel/project/.bloop/cnn_chisel-build",
-        "classesDir": "/home/ddddddd/learning/cnn_chisel/project/.bloop/cnn_chisel-build/scala-2.12/sbt-1.0/classes",
+        "out": "/media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/project/.bloop/cnn_chisel-build",
+        "classesDir": "/media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/project/.bloop/cnn_chisel-build/scala-2.12/sbt-1.0/classes",
         "resources": [
-            "/home/ddddddd/learning/cnn_chisel/project/src/main/resources",
-            "/home/ddddddd/learning/cnn_chisel/project/target/scala-2.12/sbt-1.0/resource_managed/main"
+            "/media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/project/src/main/resources",
+            "/media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/project/target/scala-2.12/sbt-1.0/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -119,10 +119,10 @@
                 "-deprecation"
             ],
             "jars": [
+                "/home/ddddddd/.sbt/boot/scala-2.12.12/lib/scala-compiler.jar",
                 "/home/ddddddd/.sbt/boot/scala-2.12.12/lib/scala-library.jar",
                 "/home/ddddddd/.sbt/boot/scala-2.12.12/lib/scala-xml_2.12-1.0.6.jar",
-                "/home/ddddddd/.sbt/boot/scala-2.12.12/lib/scala-reflect.jar",
-                "/home/ddddddd/.sbt/boot/scala-2.12.12/lib/scala-compiler.jar"
+                "/home/ddddddd/.sbt/boot/scala-2.12.12/lib/scala-reflect.jar"
             ],
             "setup": {
                 "order": "mixed",
@@ -191,9 +191,9 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/usr/lib/jvm/java-11-openjdk-amd64",
+                "home": "/usr/lib/jvm/java-17-openjdk-amd64",
                 "options": [
-                    "-Duser.dir=/home/ddddddd/learning/cnn_chisel/project"
+                    "-Duser.dir=/media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/project"
                 ]
             },
             "mainClass": [

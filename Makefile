@@ -1,4 +1,4 @@
-TOPNAME = conv_cal
+TOPNAME = Mul_Matrix
 NXDC_FILES = pin_bind.nxdc
 INC_PATH ?=
 
@@ -22,18 +22,21 @@ $(shell mkdir -p $(BUILD_DIR))
 
 # project source
 VSRCS = $(shell find $(abspath .) -name "$(TOPNAME).v")
-CSRCS = $(shell find $(abspath ./csrc) -name "*.c" -or -name "*.cc" -or -name "*.cpp")
-
+CSRCS = $(shell find $(abspath ./csrc) -name "$(TOPNAME).c" -or -name "$(TOPNAME).cc" -or -name "$(TOPNAME).cpp")
+CSRCS += $(shell find $(abspath ./csrc/lib) -name "*.c" -or -name "*.cc" -or -name "*.cpp")
 
 # rules for NVBoard
 # include $(NVBOARD_HOME)/scripts/nvboard.mk
 
 # rules for verilator
+
+INC_PATH += $(abspath .)/csrc/include/
 INCFLAGS = $(addprefix -I, $(INC_PATH))
 CFLAGS += $(INCFLAGS) -DTOP_NAME="\"V$(TOPNAME)\""
 LDFLAGS += -lSDL2 -lSDL2_image -ltensorflow
 
 $(BIN): $(VSRCS) $(CSRCS) 
+	@echo $(CSRCS)
 	@rm -rf $(OBJ_DIR)
 	$(VERILATOR) $(VERILATOR_CFLAGS) \
 		-top $(TOPNAME) $^ \
