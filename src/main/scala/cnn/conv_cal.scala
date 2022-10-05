@@ -46,7 +46,7 @@ class conv_cal(width : Int,length : Int,cnn_kernel_width:Int,channel:Int,kernel_
   
     } 
     val multiple_cnn_kernel = VecInit(Seq.fill(kernel_num)(Module(new sliding_window_filter).io))
-    multiple_cnn_kernel.zipWithIndex.foreach{case(a,index) => 
+    multiple_cnn_kernel.zipWithIndex.foreach{ case(a,index) => 
         a.data_in := io.data_in
         a.const_in := io.const_in(index)
         a.data_refresh := io.data_refresh

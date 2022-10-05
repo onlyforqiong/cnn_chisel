@@ -67,6 +67,9 @@ int main(int argc,char ** argv,char** env) {
     Vtop * top = new Vtop;
 	sim_init(top);
 	reset(top,10);
+
+	//初始化
+	
 	for(int i = 0; i < 9 ; i++){
 		mul_const[i] = random() % 10 << 8;
 		cout<<mul_const[i]<<endl;

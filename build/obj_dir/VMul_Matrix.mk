@@ -4,7 +4,7 @@
 # Execute this makefile from the object directory:
 #    make -f VMul_Matrix.mk
 
-default: /media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/build/Mul_Matrix
+default: /media/ddddddd/ddddddd/learning/cnn_chisel/build/Mul_Matrix
 
 ### Constants...
 # Perl executable (from $PERL)
@@ -35,7 +35,7 @@ VM_PREFIX = VMul_Matrix
 VM_MODPREFIX = VMul_Matrix
 # User CFLAGS (from -CFLAGS on Verilator command line)
 VM_USER_CFLAGS = \
-	-I/media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/csrc/include/ \
+	-I/media/ddddddd/ddddddd/learning/cnn_chisel/csrc/include/ \
 	-DTOP_NAME="VMul_Matrix" \
 
 # User LDLIBS (from -LDFLAGS on Verilator command line)
@@ -51,8 +51,8 @@ VM_USER_CLASSES = \
 
 # User .cpp directories (from .cpp's on Verilator command line)
 VM_USER_DIR = \
-	/media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/csrc \
-	/media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/csrc/lib \
+	/media/ddddddd/ddddddd/learning/cnn_chisel/csrc \
+	/media/ddddddd/ddddddd/learning/cnn_chisel/csrc/lib \
 
 
 ### Default rules...
@@ -64,13 +64,13 @@ include $(VERILATOR_ROOT)/include/verilated.mk
 ### Executable rules... (from --exe)
 VPATH += $(VM_USER_DIR)
 
-Mul_Matrix.o: /media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/csrc/Mul_Matrix.cpp
+Mul_Matrix.o: /media/ddddddd/ddddddd/learning/cnn_chisel/csrc/Mul_Matrix.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
-fixed_point.o: /media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/csrc/lib/fixed_point.cpp
+fixed_point.o: /media/ddddddd/ddddddd/learning/cnn_chisel/csrc/lib/fixed_point.cpp
 	$(OBJCACHE) $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(OPT_FAST) -c -o $@ $<
 
 ### Link rules... (from --exe)
-/media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/build/Mul_Matrix: $(VK_USER_OBJS) $(VK_GLOBAL_OBJS) $(VM_PREFIX)__ALL.a $(VM_HIER_LIBS)
+/media/ddddddd/ddddddd/learning/cnn_chisel/build/Mul_Matrix: $(VK_USER_OBJS) $(VK_GLOBAL_OBJS) $(VM_PREFIX)__ALL.a $(VM_HIER_LIBS)
 	$(LINK) $(LDFLAGS) $^ $(LOADLIBES) $(LDLIBS) $(LIBS) $(SC_LIBS) -o $@
 
 

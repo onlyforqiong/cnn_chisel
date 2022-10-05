@@ -1,6 +1,6 @@
 Mul_Matrix.o: \
- /media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/csrc/Mul_Matrix.cpp \
- /media/ddddddd/ddddddd/learning/ic_design/cnn_chisel/csrc/include/fixed_point.h \
+ /media/ddddddd/ddddddd/learning/cnn_chisel/csrc/Mul_Matrix.cpp \
+ /media/ddddddd/ddddddd/learning/cnn_chisel/csrc/include/fixed_point.h \
  VMul_Matrix.h /usr/local/share/verilator/include/verilated.h \
  /usr/local/share/verilator/include/verilatedos.h \
  /usr/local/share/verilator/include/verilated_config.h \
