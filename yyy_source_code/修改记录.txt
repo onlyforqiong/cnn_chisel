@@ -1,0 +1,8 @@
+0727
+1. 解决 CNN_layer2_conv_pooling.v 卷积输出求和忽略channel3的问题
+2. 量化方案从24bit修改为16bit，需调整CNN的DW参数
+3. layer2 及 fullconnect 层仅保留一路卷积池化通道，layer2 的 W 仍保存在2个 RAM 中，而 B 合并到一个RAM
+
+0803
+1. 用640*480时序显示320*240分辨率图像
+2. CNN增加使能位用于低功耗
